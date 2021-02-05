@@ -1,0 +1,64 @@
+@import "./config";
+
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: 0;
+  }
+  #{&}__title {
+    font-weight: bolder;
+    color: $theme_white;
+    font-size: 2.5rem;
+    padding: 2rem 2rem 0 1rem;
+    line-height: 1.25;
+    z-index: 5;
+  }
+  #{&}__info {
+    position: relative;
+    width: 80%;
+    flex-basis: 40%;
+    margin-top: 7rem;
+    background: $theme_white;
+    height: 40vh;
+    z-index: 5;
+    h5 {
+      position: absolute;
+      top: -1rem;
+      left: 21%;
+      width: 50%;
+      text-align: center;
+      height: 2.25rem;
+      background: $theme_dark;
+      color: $theme_white;
+      padding: 0.5rem 0;
+      font-weight: normal;
+      font-size: 1rem;
+    }
+    p {
+      font-weight: bolder;
+      margin: 3rem auto;
+      font-size: 1.3rem;
+      padding: 0.35rem;
+      text-align: center;
+    }
+    a {
+      position: relative;
+      margin: 0 1.6rem;
+    }
+  }
+}
