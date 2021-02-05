@@ -22,3 +22,18 @@ $theme_white: #fff;
   font-weight: normal;
   font-size: 1rem;
 }
+
+@mixin section-title($color, $bg) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  span {
+    color: $color;
+    background: $bg;
+    text-transform: uppercase;
+    font-weight: normal;
+    width: 42%;
+    padding: 0.5rem;
+    margin: 0 27vw 0.5rem 27vw;
+  }
+}

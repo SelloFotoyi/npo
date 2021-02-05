@@ -58,6 +58,7 @@
   position: relative;
   background: $theme_light;
   border: 1px solid transparent;
+  padding-bottom: 1rem;
   #{&}__title {
     @include div-title;
     top: -1.25rem;
@@ -74,6 +75,75 @@
         margin-bottom: 0.5rem;
       }
       margin-right: 0.5rem;
+    }
+  }
+}
+
+.do-module {
+  border: 1px solid transparent;
+  padding-top: 2rem;
+  width: 100%;
+  background: $theme_dark;
+  height: 325vh;
+  h3 {
+    @include section-title($theme_dark, $theme_white);
+  }
+  > p {
+    color: $theme_white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0 auto 5rem auto;
+    padding: 1rem;
+  }
+  #{&}__div {
+    background: $theme_white;
+    width: 90%;
+    height: 27rem;
+    margin: 1rem auto 7rem auto;
+    &__img {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      img {
+        position: relative;
+        top: -2.5rem;
+        width: 15rem;
+        height: 10rem;
+        object-fit: cover;
+        margin: 0 8%;
+      }
+    }
+
+    &__info {
+      h4 {
+        margin: 0 auto 1.5rem auto;
+        text-align: center;
+        font-size: 1.1rem;
+      }
+      p {
+        margin: 0 auto;
+        padding: 0 1.5rem;
+        text-align: center;
+        line-height: 1.3;
+      }
+    }
+    &__button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      color: royalblue;
+      &__text {
+        font-size: 1.2rem;
+        width: 50%;
+        background: $theme_light;
+        color: $theme_dark;
+        font-weight: bold;
+        border-radius: 2rem;
+        text-align: center;
+        padding: 1rem;
+      }
     }
   }
 }
