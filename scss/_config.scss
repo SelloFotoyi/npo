@@ -8,3 +8,17 @@ $theme_white: #fff;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@mixin div-title {
+  position: absolute;
+  top: -1rem;
+  left: 21%;
+  width: 50%;
+  text-align: center;
+  height: 2.25rem;
+  background: $theme_dark;
+  color: $theme_white;
+  padding: 0.5rem 0;
+  font-weight: normal;
+  font-size: 1rem;
+}
