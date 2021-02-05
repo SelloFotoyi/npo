@@ -1,0 +1,13 @@
+@import "./menu", "./config";
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  background: $theme_dark;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}

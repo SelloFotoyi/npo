@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 12.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.nav .nav__upper {
+  flex-basis: 75%;
+  display: flex;
+}
+
+.nav .nav__upper__logo {
+  flex-basis: 50%;
+  font-weight: bold;
+  padding-right: 1.25rem;
+}
+
+.nav .nav__upper__items {
+  flex-grow: 1;
+  font-size: 0.85rem;
+  list-style: none;
+  display: flex;
+  margin-left: 0.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav .nav__upper__items__link {
+  margin-bottom: 1rem;
+}
+
+.nav .nav__button {
+  background: #c1f7d5;
+  border-radius: 5rem;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  background: #354463;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
