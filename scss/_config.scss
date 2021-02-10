@@ -37,9 +37,10 @@ $theme_white: #fff;
   height: 2.25rem;
   background: $theme_dark;
   color: $theme_white;
-  padding: 0.5rem 0;
+  padding: 0.6rem 0;
   font-weight: normal;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 @mixin section-title($color, $bg) {
@@ -51,8 +52,9 @@ $theme_white: #fff;
     background: $bg;
     text-transform: uppercase;
     font-weight: normal;
-    width: 42%;
-    padding: 0.5rem;
+    width: 56%;
+    text-align: center;
+    padding: 0.6rem;
     margin: 0 27vw 0.5rem 27vw;
   }
 }
