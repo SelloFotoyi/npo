@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/rut6oae.css");
 $theme_dark: #354463;
 $theme_light: #c1f7d5;
 $theme_white: #fff;
@@ -8,7 +9,25 @@ $theme_white: #fff;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+@mixin flood_font {
+  font-family: flood-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@mixin read_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  &__text {
+    background: $theme_light;
+    color: $theme_dark;
+    font-weight: bold;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem;
+  }
+}
 @mixin div-title {
   position: absolute;
   top: -1rem;
