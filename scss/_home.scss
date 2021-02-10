@@ -546,3 +546,44 @@
     }
   }
 }
+footer {
+  width: 96%;
+  height: 95vh;
+  padding: 1.5rem 1rem;
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  h3 {
+    padding-right: 2rem;
+    color: $theme_dark;
+  }
+  .footer-list {
+    color: $theme_dark;
+    text-transform: uppercase;
+    list-style-type: none;
+
+    li {
+      font-size: 0.9rem;
+      text-transform: none;
+      color: $theme_dark;
+      margin-top: 0.5rem;
+    }
+    a {
+      text-decoration: underline;
+      color: $theme_dark;
+      line-height: 1.5;
+    }
+  }
+  h1 {
+    color: $theme_dark;
+    font-size: 2rem;
+    text-transform: uppercase;
+    grid-column-start: 2;
+    // margin-left: -1.5rem;
+    @include flood_font;
+    span {
+      padding-left: 1.5rem;
+    }
+  }
+}

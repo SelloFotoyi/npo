@@ -709,6 +709,54 @@
   text-align: centers;
 }
 
+footer {
+  width: 96%;
+  height: 95vh;
+  padding: 1.5rem 1rem;
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+footer h3 {
+  padding-right: 2rem;
+  color: #354463;
+}
+
+footer .footer-list {
+  color: #354463;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+footer .footer-list li {
+  font-size: 0.9rem;
+  text-transform: none;
+  color: #354463;
+  margin-top: 0.5rem;
+}
+
+footer .footer-list a {
+  text-decoration: underline;
+  color: #354463;
+  line-height: 1.5;
+}
+
+footer h1 {
+  color: #354463;
+  font-size: 2rem;
+  text-transform: uppercase;
+  grid-column-start: 2;
+  font-family: flood-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer h1 span {
+  padding-left: 1.5rem;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
