@@ -23,7 +23,7 @@
 .mission {
   padding-top: 2rem;
   width: 100%;
-  height: 190vh;
+  height: 200vh;
   background: $theme_dark;
   #{&}__title {
     @extend %section-title;
@@ -52,10 +52,65 @@
     &_item {
       display: flex;
       flex-direction: column;
+      margin-bottom: 1rem;
 
       h5 {
         margin: 0.5rem 0;
         font-size: 1.2rem;
+      }
+    }
+  }
+}
+.team {
+  width: 100%;
+  padding-top: 2rem;
+  #{&}__title {
+    @extend %section-title;
+    margin-bottom: 4rem;
+    span {
+      color: $theme_white;
+      background: $theme_dark;
+    }
+  }
+  #{&}__info {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: $theme_dark;
+    margin-bottom: 2rem;
+  }
+  #{&}__info_p {
+    width: 100%;
+    padding: 0 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    color: $theme_dark;
+    text-align: center;
+  }
+  #{&}-grid {
+    width: 95%;
+    margin: 1rem auto;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    &__item {
+      position: relative;
+      height: 13rem;
+      img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+        object-fit: cover;
+      }
+      span {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        background: $theme_dark;
+        color: $theme_white;
+        padding: 1rem;
       }
     }
   }
