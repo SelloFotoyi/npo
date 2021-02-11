@@ -590,7 +590,9 @@ footer {
     // margin-left: -1.5rem;
     @include flood_font;
     span {
+      @include flood_font;
       padding-left: 1.5rem;
+      font-size: 2rem;
     }
   }
 }

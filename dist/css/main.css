@@ -765,7 +765,11 @@ footer h1 {
 }
 
 footer h1 span {
+  font-family: flood-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   padding-left: 1.5rem;
+  font-size: 2rem;
 }
 
 * {
@@ -775,13 +779,14 @@ footer h1 span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.mission .mission__title, .team .team__title, .impact .impact__title {
+.about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.mission .mission__title span, .team .team__title span, .impact .impact__title span {
+.about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -794,6 +799,53 @@ footer h1 span {
 .about {
   max-width: 100vw;
   height: 100%;
+}
+
+.about .about-banner {
+  position: relative;
+  width: 100%;
+  height: 105.5vh;
+}
+
+.about .about-banner__title {
+  position: absolute;
+  width: 25%;
+  left: 1rem;
+  top: 1rem;
+  font-size: 3.5rem;
+  font-family: flood-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: #fff;
+  color: #fff;
+}
+
+.about .about-banner__info {
+  position: absolute;
+  bottom: 2rem;
+  left: 10%;
+  width: 80%;
+  height: 47.5%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.about .about-banner__info h5 {
+  top: -1rem;
+}
+
+.about .about-banner__info h5 span {
+  color: #fff;
+  background: #354463;
+}
+
+.about .about-banner__info p {
+  font-weight: bolder;
+  margin: 1.5rem auto;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  color: #354463;
 }
 
 .mission {
@@ -953,6 +1005,152 @@ footer h1 span {
   font-family: flood-std, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.history {
+  position: relative;
+  padding-top: 3rem;
+  width: 100%;
+  height: 135vh;
+  background: #354463;
+}
+
+.history .history__header {
+  width: 100%;
+  padding: 0 2.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-family: flood-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.history .slider {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.history .slider .next-btn {
+  position: absolute;
+  right: 0.5rem;
+  top: 45%;
+  z-index: 1;
+  background: #c1f7d5;
+  color: #354463;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.history .slider .next-btn img {
+  transform: scale(0.75);
+  padding: 0.25rem;
+  margin: 0;
+}
+
+.history .slider .prev-btn {
+  position: absolute;
+  left: 0.5rem;
+  top: 45%;
+  z-index: 5;
+  background: #c1f7d5;
+  color: #354463;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.history .slider .prev-btn img {
+  transform: scale(0.75);
+  padding: 0.25rem;
+  margin: 0;
+}
+
+.history .slider .about-slides {
+  width: 500vw;
+  display: flex;
+  background: transparent;
+  transition: 1s;
+}
+
+.history .slider .about-slides input {
+  display: none;
+}
+
+.history .slider .about-slides .slide {
+  padding: 1%;
+  position: relative;
+  width: 20%;
+  transition: 1s;
+  height: 100%;
+}
+
+.history .slider .about-slides .slide .header {
+  z-index: 1;
+}
+
+.history .slider .about-slides .slide .header span {
+  top: -1rem;
+  color: #354463;
+  background: #fff;
+}
+
+.history .slider .about-slides .slide .content {
+  z-index: 0;
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.history .slider .about-slides .slide .content img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.history .slider .about-slides .slide .content .info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+  color: #354463;
+  background: #fff;
+}
+
+.history .slider .about-slides .slide .content .info .title {
+  width: 100%;
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+.history .slider .about-slides .slide .content .info .text {
+  width: 100%;
+  padding: 0 0.5rem;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+
+.history .slider .about-slides .slide .content .info .button {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.history .slider .about-slides .slide .content .info .button span {
+  padding: 0.5rem;
+  background: #c1f7d5;
+  color: #354463;
+  font-weight: bold;
+  border-radius: 1rem;
 }
 
 body {
