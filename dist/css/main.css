@@ -2,6 +2,7 @@
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
+@import url("https://use.typekit.net/rut6oae.css");
 * {
   padding: 0;
   margin: 0;
@@ -1151,6 +1152,170 @@ footer h1 span {
   color: #354463;
   font-weight: bold;
   border-radius: 1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stories {
+  width: 100%;
+  height: 100%;
+}
+
+.claudine, .zainab, .caritas, .euphrasie, .unis, .regina {
+  width: 100%;
+  padding: 0 10%;
+  height: 325vh;
+  position: relative;
+  top: 0;
+  transition: 1s;
+  background: #354463;
+  color: #fff;
+}
+
+.claudine h1, .zainab h1, .caritas h1, .euphrasie h1, .unis h1, .regina h1 {
+  width: 100%;
+  padding-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.claudine .index, .zainab .index, .caritas .index, .euphrasie .index, .unis .index, .regina .index {
+  background: transparent;
+  list-style-type: none;
+  margin-bottom: 2.5rem;
+  line-height: 3.5;
+}
+
+.claudine .index li, .zainab .index li, .caritas .index li, .euphrasie .index li, .unis .index li, .regina .index li {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.claudine .top-img, .zainab .top-img, .caritas .top-img, .euphrasie .top-img, .unis .top-img, .regina .top-img {
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 1rem;
+}
+
+.claudine .top-img img, .zainab .top-img img, .caritas .top-img img, .euphrasie .top-img img, .unis .top-img img, .regina .top-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.claudine .quote, .zainab .quote, .caritas .quote, .euphrasie .quote, .unis .quote, .regina .quote {
+  background: #fff;
+  width: 100%;
+  height: 15rem;
+  padding: 2rem;
+  color: #354463;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.claudine .btm-img, .zainab .btm-img, .caritas .btm-img, .euphrasie .btm-img, .unis .btm-img, .regina .btm-img {
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 2.5rem;
+}
+
+.claudine .btm-img img, .zainab .btm-img img, .caritas .btm-img img, .euphrasie .btm-img img, .unis .btm-img img, .regina .btm-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.claudine .story__header, .zainab .story__header, .caritas .story__header, .euphrasie .story__header, .unis .story__header, .regina .story__header {
+  margin-bottom: 2rem;
+}
+
+.claudine .story__content, .zainab .story__content, .caritas .story__content, .euphrasie .story__content, .unis .story__content, .regina .story__content {
+  line-height: 1.3;
+}
+
+.claudine .story__btn, .zainab .story__btn, .caritas .story__btn, .euphrasie .story__btn, .unis .story__btn, .regina .story__btn {
+  margin: 3rem 0;
+  background: #c1f7d5;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #354463;
+  font-weight: bold;
+  width: 7.5rem;
+  text-align: center;
+}
+
+.claudine {
+  display: inline-block;
+  opacity: 1;
+  z-index: 1;
+}
+
+.claudine .index .index-item__claudine {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.zainab {
+  display: none;
+  opacity: 0;
+  z-index: 2;
+}
+
+.zainab .index .index-item__zainab {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.caritas {
+  display: none;
+  opacity: 0;
+  z-index: 3;
+}
+
+.caritas .index .index-item__caritas {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.euphrasie {
+  display: none;
+  opacity: 0;
+  z-index: 4;
+}
+
+.euphrasie .index .index-item__euphrasie {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.unis {
+  display: none;
+  opacity: 0;
+  z-index: 5;
+}
+
+.unis .index .index-item__unis {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.regina {
+  display: none;
+  opacity: 0;
+  z-index: 6;
+}
+
+.regina .index .index-item__regina {
+  background: #c1f7d5;
+  color: #354463;
 }
 
 body {

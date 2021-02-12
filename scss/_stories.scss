@@ -1,0 +1,155 @@
+@import "./config";
+
+.stories {
+  width: 100%;
+  height: 100%;
+}
+
+%portal {
+  width: 100%;
+  padding: 0 10%;
+  height: 325vh;
+  position: relative;
+  top: 0;
+  transition: 1s;
+  background: $theme_dark;
+  color: $theme_white;
+  h1 {
+    width: 100%;
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  .index {
+    background: transparent;
+    list-style-type: none;
+    margin-bottom: 2.5rem;
+    line-height: 3.5;
+    li {
+      padding-left: 1rem;
+      cursor: pointer;
+    }
+  }
+  .top-img {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 1rem;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .quote {
+    background: $theme_white;
+    width: 100%;
+    height: 15rem;
+    padding: 2rem;
+    color: $theme_dark;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .btm-img {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 2.5rem;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .story {
+    &__header {
+      margin-bottom: 2rem;
+    }
+    &__content {
+      line-height: 1.3;
+    }
+    &__btn {
+      margin: 3rem 0;
+      background: $theme_light;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      color: $theme_dark;
+      font-weight: bold;
+      width: 7.5rem;
+      text-align: center;
+    }
+  }
+}
+.claudine {
+  display: inline-block;
+  @extend %portal;
+  opacity: 1;
+  z-index: 1;
+  .index {
+    .index-item__claudine {
+      background: $theme_light;
+      color: $theme_dark;
+    }
+  }
+}
+.zainab {
+  display: none;
+  @extend %portal;
+  opacity: 0;
+  z-index: 2;
+  .index {
+    .index-item__zainab {
+      background: $theme_light;
+      color: $theme_dark;
+    }
+  }
+}
+.caritas {
+  display: none;
+  @extend %portal;
+  opacity: 0;
+  z-index: 3;
+  .index {
+    .index-item__caritas {
+      background: $theme_light;
+      color: $theme_dark;
+    }
+  }
+}
+.euphrasie {
+  display: none;
+  @extend %portal;
+  opacity: 0;
+  z-index: 4;
+  .index {
+    .index-item__euphrasie {
+      background: $theme_light;
+      color: $theme_dark;
+    }
+  }
+}
+.unis {
+  display: none;
+  @extend %portal;
+  opacity: 0;
+  z-index: 5;
+  .index {
+    .index-item__unis {
+      background: $theme_light;
+      color: $theme_dark;
+    }
+  }
+}
+.regina {
+  display: none;
+  @extend %portal;
+  opacity: 0;
+  z-index: 6;
+  .index {
+    .index-item__regina {
+      background: $theme_light;
+      color: $theme_dark;
+    }
+  }
+}
