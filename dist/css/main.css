@@ -5,6 +5,7 @@
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
+@import url("https://use.typekit.net/rut6oae.css");
 * {
   padding: 0;
   margin: 0;
@@ -1963,6 +1964,226 @@ footer h1 span {
   width: 100%;
   height: 50%;
   object-fit: cover;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.donation-container .donation-10, .donation-container .donation-20, .donation-container .donation-50, .donation-container .donation-month, .donation-container .donation-once {
+  width: 95%;
+  height: 12rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: transparent;
+  padding: 1rem 0;
+  border: 1px solid #fff;
+}
+
+.donation-container .donation-10 div, .donation-container .donation-20 div, .donation-container .donation-50 div, .donation-container .donation-month div, .donation-container .donation-once div {
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.donation-container .donation-10 div label, .donation-container .donation-20 div label, .donation-container .donation-50 div label, .donation-container .donation-month div label, .donation-container .donation-once div label {
+  background: transparent;
+  margin-right: 1rem;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.donation-container .donation-10 div span, .donation-container .donation-20 div span, .donation-container .donation-50 div span, .donation-container .donation-month div span, .donation-container .donation-once div span {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bolder;
+  padding-bottom: 0.5rem;
+}
+
+.donation-container .donation-10 p, .donation-container .donation-20 p, .donation-container .donation-50 p, .donation-container .donation-month p, .donation-container .donation-once p {
+  line-height: 1.5;
+  color: #fff;
+  padding: 1.2rem;
+}
+
+.donate {
+  width: 100%;
+  height: 100%;
+}
+
+.donate-header {
+  background: #fff;
+  padding: 1rem 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.donate-header span {
+  width: 55%;
+  color: #354463;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.donate-main {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 245vh;
+}
+
+.donate-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.donate-main .donate-title {
+  position: absolute;
+  color: #fff;
+  font-family: flood-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.2rem;
+  width: 100%;
+  text-align: center;
+  padding: 3rem;
+}
+
+.donation-container {
+  position: absolute;
+  top: 10rem;
+  width: 100%;
+  height: 87%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation-container input {
+  display: none;
+}
+
+.donation-container .donation {
+  width: 90%;
+  height: 100%;
+  background: #354463;
+}
+
+.donation-container .donation h3 {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.donation-container .donation-20 {
+  background: #fff;
+}
+
+.donation-container .donation-20 div label {
+  border: 1px solid #354463;
+}
+
+.donation-container .donation-20 div span {
+  color: #354463;
+}
+
+.donation-container .donation-20 p {
+  color: #354463;
+}
+
+.donation-container .donation-50 {
+  background: #fff;
+  border-top: 1px solid #354463;
+}
+
+.donation-container .donation-50 div label {
+  border: 1px solid #354463;
+}
+
+.donation-container .donation-50 div span {
+  color: #354463;
+}
+
+.donation-container .donation-50 p {
+  color: #354463;
+}
+
+.donation-container .donation .own-amount {
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0 5rem 0;
+  color: #c1f7d5;
+  text-decoration: underline;
+}
+
+.donation-container .donation-month {
+  height: 8rem;
+}
+
+.donation-container .donation-month div label {
+  margin-right: 2rem;
+}
+
+.donation-container .donation-month div span {
+  font-size: 1.75rem;
+}
+
+.donation-container .donation-once {
+  height: 8rem;
+  background: #fff;
+}
+
+.donation-container .donation-once div label {
+  margin-right: 2rem;
+  border: 1px solid #354463;
+}
+
+.donation-container .donation-once div span {
+  font-size: 1.75rem;
+  color: #354463;
+}
+
+.donation-container .donation-check {
+  margin: 3rem 0 0 1rem;
+}
+
+.donation-container .donation-check__cancel {
+  color: #c1f7d5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.donation-container .donation-check__proceed {
+  transition: 1s;
+  background: #c1f7d5;
+  color: #354463;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.donation-container .donation-check__proceed:hover {
+  background: #354463;
+  color: #c1f7d5;
+  border: 1px solid #c1f7d5;
 }
 
 body {

@@ -1,0 +1,197 @@
+@import "./config";
+
+%donation-template {
+  width: 95%;
+  height: 12rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: transparent;
+  padding: 1rem 0;
+  border: 1px solid $theme_white;
+
+  div {
+    display: flex;
+    margin-left: 2rem;
+    align-items: center;
+    label {
+      background: transparent;
+      margin-right: 1rem;
+      border: 10px solid $theme_white;
+      border-radius: 50%;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+    span {
+      font-size: 3rem;
+      color: $theme_white;
+      font-weight: bolder;
+      padding-bottom: 0.5rem;
+    }
+  }
+  p {
+    line-height: 1.5;
+    color: $theme_white;
+    padding: 1.2rem;
+  }
+}
+
+.donate {
+  width: 100%;
+  height: 100%;
+}
+
+.donate-header {
+  background: $theme_white;
+  padding: 1rem 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  span {
+    width: 55%;
+    color: $theme_dark;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+.donate-main {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 245vh;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+  .donate-title {
+    position: absolute;
+    color: $theme_white;
+    @include flood_font;
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+  }
+}
+.donation-container {
+  position: absolute;
+  top: 10rem;
+  width: 100%;
+  height: 87%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    display: none;
+  }
+  .donation {
+    width: 90%;
+    height: 100%;
+    background: $theme_dark;
+    h3 {
+      width: 100%;
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 1.5rem;
+      color: $theme_white;
+    }
+    &-10 {
+      @extend %donation-template;
+    }
+    &-20 {
+      @extend %donation-template;
+      background: $theme_white;
+      div {
+        label {
+          border: 1px solid $theme_dark;
+        }
+        span {
+          color: $theme_dark;
+        }
+      }
+      p {
+        color: $theme_dark;
+      }
+    }
+    &-50 {
+      @extend %donation-template;
+      background: $theme_white;
+      border-top: 1px solid $theme_dark;
+      div {
+        label {
+          border: 1px solid $theme_dark;
+        }
+        span {
+          color: $theme_dark;
+        }
+      }
+      p {
+        color: $theme_dark;
+      }
+    }
+    .own-amount {
+      width: 100%;
+      text-align: center;
+      margin: 1rem 0 5rem 0;
+      color: $theme_light;
+      text-decoration: underline;
+    }
+    &-month {
+      @extend %donation-template;
+      height: 8rem;
+      div {
+        label {
+          margin-right: 2rem;
+        }
+        span {
+          font-size: 1.75rem;
+        }
+      }
+    }
+    &-once {
+      @extend %donation-template;
+      height: 8rem;
+      background: $theme_white;
+      div {
+        label {
+          margin-right: 2rem;
+          border: 1px solid $theme_dark;
+        }
+        span {
+          font-size: 1.75rem;
+          color: $theme_dark;
+        }
+      }
+    }
+    &-check {
+      margin: 3rem 0 0 1rem;
+      &__cancel {
+        color: $theme_light;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      &__proceed {
+        transition: 1s;
+        background: $theme_light;
+        color: $theme_dark;
+        padding: 0.75rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-left: 2rem;
+        border-radius: 2rem;
+        cursor: pointer;
+        &:hover {
+          background: $theme_dark;
+          color: $theme_light;
+          border: 1px solid $theme_light;
+        }
+      }
+    }
+  }
+}
