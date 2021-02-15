@@ -15,25 +15,45 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.nav {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
+.nav {
+  width: 90%;
+  margin: 0 auto 1rem auto;
   height: 12.5rem;
-  padding: 2rem;
+  padding: 2rem 0.5rem 2rem 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #fff;
+  color: #354463;
 }
 
 .nav .nav__upper {
   flex-basis: 75%;
+  width: 100%;
   display: flex;
 }
 
 .nav .nav__upper__logo {
   flex-basis: 50%;
-  font-weight: bold;
-  padding-right: 1.25rem;
+  font-weight: bolder;
+  line-height: 1.2;
+  padding-right: 0.5rem;
 }
 
 .nav .nav__upper__items {
@@ -41,7 +61,7 @@
   font-size: 0.85rem;
   list-style: none;
   display: flex;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -50,21 +70,34 @@
   margin-bottom: 1rem;
 }
 
+.nav .nav__upper__items__link a {
+  color: #354463;
+  cursor: pointer;
+}
+
 .nav .nav__button {
   background: #c1f7d5;
   border-radius: 5rem;
   width: 100%;
   text-align: center;
   padding: 1rem;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1.2rem;
   margin-top: 1rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.nav .nav__button a {
+  color: #354463;
+}
+
+.nav .nav__button:hover {
+  transition: 1s;
+  background: #354463;
+  color: #c1f7d5;
+}
+
+.nav .nav__button:hover a {
+  color: #c1f7d5;
 }
 
 * {
@@ -74,83 +107,121 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.home {
-  max-width: 100vw;
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
+.home,
+html {
+  width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .banner {
   position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.banner img {
-  position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
-  object-fit: fill;
-  z-index: 0;
+  height: 30rem;
+  margin-bottom: 0;
 }
 
 .banner .banner__title {
+  position: absolute;
+  top: 0;
+  left: 0;
   font-family: flood-std, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #fff;
   font-size: 2.5rem;
-  padding: 2rem 2rem 0 1rem;
-  line-height: 1.25;
-  z-index: 5;
+  padding: 1rem 5rem 0 1rem;
+  line-height: 1.1;
 }
 
-.banner .banner__info {
-  position: relative;
-  width: 80%;
-  flex-basis: 40%;
-  margin-top: 7rem;
-  background: #fff;
-  height: 100vh;
-  z-index: 5;
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
 
-.banner .banner__info h5 {
+.banner-container {
   position: absolute;
-  top: -1rem;
-  left: 21%;
-  width: 50%;
-  text-align: center;
-  height: 2.25rem;
+  top: 15rem;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content {
+  width: 80%;
+  height: 100%;
+  background: #fff;
+  color: #354463;
+}
+
+.banner-content .banner-content__header {
+  top: -1.25rem;
+}
+
+.banner-content .banner-content__header span {
   background: #354463;
   color: #fff;
-  padding: 0.6rem 0;
-  font-weight: normal;
+}
+
+.banner-content .banner-content__info {
+  margin-top: 1.5rem;
+  padding: 1.2rem;
   font-size: 1rem;
-  text-transform: uppercase;
-  margin: 0 3.5vw;
-}
-
-.banner .banner__info p {
-  font-weight: bolder;
-  margin: 3rem auto;
-  font-size: 1.2rem;
-  padding: 0.5rem;
+  line-height: 1.3;
+  font-weight: bold;
   text-align: center;
-  color: #354463;
 }
 
-.banner .banner__info a {
+.banner-content .banner-content__link {
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  position: relative;
-  margin: 0 1.6rem;
-  text-decoration: underline;
   color: #354463;
+  padding: 0 2.5rem 0.5rem 2.5rem;
+  text-decoration: underline;
+  font-size: 0.9rem;
 }
 
 .action-module {
@@ -162,20 +233,12 @@
 }
 
 .action-module .action-module__title {
-  position: absolute;
-  top: -1rem;
-  left: 21%;
-  width: 50%;
-  text-align: center;
-  height: 2.25rem;
-  background: #354463;
-  color: #fff;
-  padding: 0.6rem 0;
-  font-weight: normal;
-  font-size: 1rem;
-  text-transform: uppercase;
   top: -1.25rem;
-  margin: 0 5vw;
+}
+
+.action-module .action-module__title span {
+  color: #fff;
+  background: #354463;
 }
 
 .action-module .action-module__grid {
@@ -194,6 +257,12 @@
 
 .action-module .action-module__grid__item h3 {
   margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.action-module .action-module__grid__item p {
+  font-size: 0.8rem;
+  padding-right: 1rem;
 }
 
 .do-module {
@@ -201,24 +270,16 @@
   padding-top: 2rem;
   width: 100%;
   background: #354463;
-  height: 325vh;
+  height: 115rem;
 }
 
 .do-module h3 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  margin-bottom: 2.5rem;
 }
 
 .do-module h3 span {
   color: #354463;
   background: #fff;
-  text-transform: uppercase;
-  font-weight: normal;
-  width: 56%;
-  text-align: center;
-  padding: 0.6rem;
-  margin: 0 27vw 0.5rem 27vw;
 }
 
 .do-module > p {
@@ -252,6 +313,10 @@
   margin: 0 8%;
 }
 
+.do-module .do-module__div__info {
+  color: #354463;
+}
+
 .do-module .do-module__div__info h4 {
   margin: 0 auto 1.5rem auto;
   text-align: center;
@@ -283,10 +348,16 @@
   padding: 1rem;
 }
 
+.do-module .do-module__div__button__text:hover {
+  transition: 1s;
+  background: #354463;
+  color: #c1f7d5;
+}
+
 .know-module {
   position: relative;
   width: 100%;
-  height: 205vh;
+  height: 60rem;
 }
 
 .know-module img {
@@ -325,7 +396,7 @@
   font-style: normal;
 }
 
-.know-module .know-module__content__header span {
+.know-module .know-module__content__header a {
   padding: 0.5rem;
   background: #c1f7d5;
   color: #354463;
@@ -333,24 +404,22 @@
   font-weight: bold;
 }
 
+.know-module .know-module__content__header a:hover {
+  transition: 1s;
+  color: #c1f7d5;
+  background: #354463;
+}
+
 .know-module .know-module__content__facts {
   position: relative;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .know-module .know-module__content__facts__title {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  z-index: 3;
-  justify-content: center;
+  top: -0.5rem;
 }
 
 .know-module .know-module__content__facts__title span {
-  text-transform: uppercase;
-  padding: 0.5rem;
   background: #354463;
   color: #fff;
 }
@@ -364,10 +433,10 @@
 }
 
 .know-module .know-module__content__facts__container__item {
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   background: #fff;
-  height: 10rem;
+  height: 7.5rem;
   margin-bottom: 1rem;
 }
 
@@ -377,20 +446,22 @@
 
 .know-module .know-module__content__facts__container__item .info h3 {
   color: #354463;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
 .know-module .know-module__content__facts__container__item .info p {
   line-height: 1.3;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  color: #354463;
+  width: 100%;
 }
 
 .know-module .know-module__content__facts__container__item .socials {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 0.5rem;
   align-items: flex-end;
 }
@@ -403,23 +474,17 @@
   transform: scale(0.9);
 }
 
-.stories {
-  width: 100%;
-  height: 100vh;
-  margin-top: 2rem;
-  position: relative;
-}
-
 .slider {
   width: 90%;
-  margin: 0 4.5vw;
-  height: 100%;
+  margin: 2rem auto 1rem auto;
+  height: 35rem;
+  position: relative;
   overflow-x: hidden;
 }
 
 .slides {
   width: 500vw;
-  height: 90%;
+  height: 32rem;
   display: flex;
   background: #fff;
 }
@@ -436,31 +501,24 @@
 }
 
 .slide .slide__header {
-  position: absolute;
-  top: 0;
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  z-index: 2;
+  right: 1rem;
 }
 
 .slide .slide__header span {
-  color: #354463;
-  background: #c1f7d5;
-  padding: 0.5rem;
-  text-transform: uppercase;
+  color: #fff;
+  background: #354463;
+  width: 40%;
 }
 
 .slide .slide__content {
   margin-top: 1rem;
   z-index: 1;
   width: 90%;
-  height: 100%;
 }
 
 .slide .slide__content__img {
   width: 100%;
-  height: 40%;
+  height: 12.5rem;
   margin-bottom: 1rem;
 }
 
@@ -473,10 +531,10 @@
 .slide .slide__content__info {
   position: relative;
   width: 100%;
-  height: 40%;
+  height: 12.5rem;
   background: #354463;
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   padding: 1rem 0.5rem 0.5rem 0.5rem;
   text-align: center;
   font-weight: bold;
@@ -485,7 +543,7 @@
 .slide .slide__content__info span {
   position: absolute;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: normal;
   bottom: 1rem;
   text-align: center;
@@ -508,10 +566,17 @@
   padding: 1rem;
 }
 
+.slide .slide__content__button__text:hover {
+  transition: 1s;
+  background: #354463;
+  color: #c1f7d5;
+}
+
 .navigation-manual {
   position: absolute;
   width: 90%;
   bottom: 1.5rem;
+  left: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -558,6 +623,7 @@
   width: 90%;
   justify-content: center;
   bottom: 1.5rem;
+  left: 1rem;
 }
 
 .navigation-auto div {
@@ -593,26 +659,26 @@
 
 .events {
   width: 100%;
-  height: 290vh;
+  height: 92rem;
   background: #354463;
 }
 
 .events .events__title {
-  padding: 2.5rem 2.5rem;
+  padding: 1.5rem 2.5rem;
   text-transform: uppercase;
-  margin: 2rem auto;
+  margin: 1rem auto;
   color: #fff;
   width: 100%;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .events .events__flex {
   width: 100%;
-  height: 100vh;
+  height: 35rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 }
 
 .events .events__flex__img {
@@ -621,20 +687,12 @@
 }
 
 .events .events__flex__img h4 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: absolute;
   top: -1.2rem;
 }
 
 .events .events__flex__img h4 span {
-  padding: 0.75rem;
-  text-transform: uppercase;
   background: #fff;
-  font-weight: normal;
-  width: 50%;
-  text-align: center;
+  color: #354463;
 }
 
 .events .events__flex__img img {
@@ -646,7 +704,7 @@
 .events .events__flex__info h3 {
   font-weight: bold;
   width: 100%;
-  padding: 0 2.5rem;
+  padding: 0 2rem;
   text-align: center;
   color: #fff;
 }
@@ -658,7 +716,7 @@
   width: 100%;
   text-align: center;
   line-height: 1.5;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .events .events__flex__info__button {
@@ -676,7 +734,14 @@
   font-weight: bold;
   border-radius: 2rem;
   text-align: center;
-  padding: 1rem;
+  padding: 0.7rem;
+}
+
+.events .events__flex__info__button__text:hover {
+  transition: 1s;
+  background: #354463;
+  border: 1px solid #c1f7d5;
+  color: #c1f7d5;
 }
 
 .subscribe {
@@ -785,14 +850,30 @@ footer h1 span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -1166,6 +1247,22 @@ footer h1 span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
 .stories {
   width: 100%;
   height: 100%;
@@ -1330,6 +1427,22 @@ footer h1 span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -1337,14 +1450,30 @@ footer h1 span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -1975,6 +2104,22 @@ footer h1 span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
 .form-container__form .outer-div, .form-container__form .location-flex__city, .form-container__form .location-flex__state-zip div {
   display: flex;
   flex-direction: column;
@@ -2256,6 +2401,22 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
 .donation-container .donation-10, .donation-container .donation-20, .donation-container .donation-50, .donation-container .donation-month, .donation-container .donation-once {
   width: 95%;
   height: 12rem;
@@ -2474,6 +2635,22 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
 }
 
 .thanks,

@@ -1,11 +1,11 @@
-    // var counter = 1;
-    // setInterval(function(){
-    //   document.getElementById('radio' + counter).checked = true;
-    //   counter++;
-    //   if(counter > 5){
-    //     counter = 1;
-    //   }
-    // }, 5000);
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 5){
+        counter = 1;
+      }
+    }, 5000);
 
     //history img slider
     // let slides = document.querySelector('.about-slides');

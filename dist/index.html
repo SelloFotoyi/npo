@@ -11,30 +11,45 @@
         <nav class="nav">
             <div class="nav__upper">
                 <div class="nav__upper__logo">
-                    <span>The Green Trees Initiative</span>
+                    <span>The Green <br> Trees Initiative</span>
                 </div>
                 <ul class="nav__upper__items">
-                    <li class="nav__upper__items__link">About us</li>
-                    <li class="nav__upper__items__link">Get involved</li>
-                    <li class="nav__upper__items__link">News and events</li>
+                    <li class="nav__upper__items__link">
+                        <a href="./about.html">About us</a>
+                    </li>
+                    <li class="nav__upper__items__link">
+                        <a href="./stories.html">Our stories</a>
+                    </li>
+                    <li class="nav__upper__items__link">
+                        <a href="./news-events.html">News and events</a>
+                    </li>
                 </ul>
             </div>
             <div class="nav__button">
-                <a>Donate today</a>
+                <a href="./donate.html">Donate today</a> 
             </div>
         </nav>
     </header>
     <section class="banner">
         <img src="./img/banner-img-mobile.png" alt="banner-img">
-        <div class="banner__title">
+        <h2 class="banner__title">
             #STOP CLIMATE CHANGE
-        </div>
-        <div class="banner__info">
-            <h5>THE ISSUE</h5>
-            <p>Climate change poses the
-            biggest threat to women
-            in developing nations.</p>
-            <a href="#">Read more about this issue</a>
+        </h2>
+        <div class="banner-container">
+            <div class="banner-content">
+                <h4 class="banner-content__header">
+                    <span>the issue</span> 
+                </h4>
+                <p class="banner-content__info">
+                    Climate change poses the
+                    biggest threat to women
+                    in developing nations.
+                </p>
+                <span class="banner-content__link">
+                    Read more about this issue
+                </span>
+                
+            </div>
         </div>
     </section>
     <section class="action-module">
@@ -123,7 +138,8 @@
         <div class="know-module__content">
             <div class="know-module__content__header">
                 <h2>climate change is a hunger issue.</h2>
-                <span>Take action today</span>
+                <a href="./donate.html">Take action today </a>
+                
             </div>
             <div class="know-module__content__facts">
                 <div class="know-module__content__facts__title">
@@ -138,8 +154,8 @@
                                 on agriculture for survival.</p>
                         </div>
                         <div class="socials">
-                            <i class="fab fa-twitter fa-2x"></i>
-                            <i class="fab fa-facebook fa-2x"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook"></i>
                         </div>
                     </div>
                     <div class="know-module__content__facts__container__item">
@@ -149,8 +165,8 @@
                                 climate change by 2030</p>
                         </div>
                         <div class="socials">
-                            <i class="fab fa-twitter fa-2x"></i>
-                            <i class="fab fa-facebook fa-2x"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook"></i>
                         </div>
                     </div>
                     <div class="know-module__content__facts__container__item">
@@ -160,8 +176,8 @@
                                 could go by the year 2080</p>
                         </div>
                         <div class="socials">
-                            <i class="fab fa-twitter fa-2x"></i>
-                            <i class="fab fa-facebook fa-2x"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook"></i>
                         </div>
                     </div>
                     <div class="know-module__content__facts__container__item">
@@ -171,8 +187,8 @@
                                 shortages by the year 2050</p>
                         </div>
                         <div class="socials">
-                            <i class="fab fa-twitter fa-2x"></i>
-                            <i class="fab fa-facebook fa-2x"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook"></i>
                         </div>
                     </div>
 
@@ -180,18 +196,20 @@
             </div>
         </div>
     </section>
-    <section class="stories">
-        <!--image slider start-->
-        <div class="slider">
-            <div class="slides">
-                <!--radio buttons start-->
+
+    <section class="slider">
+     
+      
+         <div class="slides">
+
+
                 <input type="radio"  name="radio-btn" id="radio1">
                 <input type="radio" name="radio-btn" id="radio2">
                 <input type="radio" name="radio-btn" id="radio3">
                 <input type="radio" name="radio-btn" id="radio4">
                 <input type="radio" name="radio-btn" id="radio5">
-                <!--radio buttons end-->
-                <!--slide images start-->
+
+
                 <div class="slide first">
                     <h4 class="slide__header"> <span>stories</span></h4>
                     <div class="slide__content">
@@ -201,10 +219,10 @@
                         <p class="slide__content__info">
                             “I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with
                             this issue, but now my life is better.”
-                            <span>BALKI, FARMER AND MOTHER IN NIGER</span>
+                            <span>CLAUDINE, NIGERIA</span>
                         </p>
                         <div class="slide__content__button">
-                            <span class="slide__content__button__text">Read more</span>
+                            <a href="./stories.html" class="slide__content__button__text">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -213,15 +231,47 @@
                     <h4 class="slide__header"> <span>stories</span> </h4>
                     <div class="slide__content">
                         <div class="slide__content__img">
-                            <img src="./img/story-img-2.png" alt="">
+                            <img src="./img/do-img-3.png" alt="">
                         </div>
                         <p class="slide__content__info">
                             “I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with
                             this issue, but now my life is ”
-                            <span>BALKI, FARMER AND MOTHER IN NIGER</span>
+                            <span>ZAINAB, NIGERIA</span>
                         </p>
                         <div class="slide__content__button">
-                            <span class="slide__content__button__text">Read more</span>
+                            <a href="./stories.html" class="slide__content__button__text">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <h4 class="slide__header"> <span>stories</span> </h4>
+                    <div class="slide__content">
+                        <div class="slide__content__img">
+                            <img src="./img/story-img-2.png" alt="">
+                        </div>
+                        <p class="slide__content__info">
+                            “I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with
+                            this issue, but now my life.”
+                            <span>CARITAS, RWANDA</span>
+                        </p>
+                        <div class="slide__content__button">
+                            <a href="./stories.html" class="slide__content__button__text">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <h4 class="slide__header"> <span>stories</span> </h4>
+                    <div class="slide__content">
+                        <div class="slide__content__img">
+                            <img src="./img/story-img.png" alt="">
+                        </div>
+                        <p class="slide__content__info">
+                            “I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with
+                            this issue, but now my.”
+                            <span>EUPHRASIE, RWANDA</span>
+                        </p>
+                        <div class="slide__content__button">
+                            <a href="./stories.html" class="slide__content__button__text">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -233,48 +283,16 @@
                         </div>
                         <p class="slide__content__info">
                             “I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with
-                            this issue, but now my life.”
-                            <span>BALKI, FARMER AND MOTHER IN NIGER</span>
-                        </p>
-                        <div class="slide__content__button">
-                            <span class="slide__content__button__text">Read more</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <h4 class="slide__header"> <span>stories</span> </h4>
-                    <div class="slide__content">
-                        <div class="slide__content__img">
-                            <img src="./img/do-img-2.png" alt="">
-                        </div>
-                        <p class="slide__content__info">
-                            “I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with
-                            this issue, but now my.”
-                            <span>BALKI, FARMER AND MOTHER IN NIGER</span>
-                        </p>
-                        <div class="slide__content__button">
-                            <span class="slide__content__button__text">Read more</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <h4 class="slide__header"> <span>stories</span> </h4>
-                    <div class="slide__content">
-                        <div class="slide__content__img">
-                            <img src="./img/do-img-1.png" alt="">
-                        </div>
-                        <p class="slide__content__info">
-                            “I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with
                             this issue, but now.”
-                            <span>BALKI, FARMER AND MOTHER IN NIGER</span>
+                            <span>UNIS, SUDAN</span>
                         </p>
                         <div class="slide__content__button">
-                            <span class="slide__content__button__text">Read more</span>
+                            <a href="./stories.html" class="slide__content__button__text">Read more</a>
                         </div>
                     </div>
                 </div>
-                <!--slide images end-->
-                <!--automatic navigation start-->
+
+
                 <div class="navigation-auto">
                     <div class="auto-btn1"></div>
                     <div class="auto-btn2"></div>
@@ -282,9 +300,9 @@
                     <div class="auto-btn4"></div>
                     <div class="auto-btn5"></div>
                 </div>
-                <!--automatic navigation end-->
+              
             </div>
-            <!--manual navigation start-->
+           
             <div class="navigation-manual">
                 <label for="radio1" class="manual-btn"></label>
                 <label for="radio2" class="manual-btn"></label>
@@ -292,9 +310,10 @@
                 <label for="radio4" class="manual-btn"></label>
                 <label for="radio5" class="manual-btn"></label>
             </div>
-            <!--manual navigation end-->
         </div>
-        <!--image slider end-->
+             
+   
+        
     </section>
     <section class="events">
         <h2 class="events__title">LET’S Take
@@ -317,7 +336,7 @@
                     nisl porttitor nisl laoreet semper nec iaculis
                     nibh. Curabitur in tortor lorem.</p>
                 <div class="events__flex__info__button">
-                    <span class="events__flex__info__button__text">Read more</span>
+                    <a href="./news-events.html" class="events__flex__info__button__text">Read more</a>
                 </div>
     
             </div>
@@ -329,8 +348,7 @@
             </div>
             <div class="events__flex__info">
                
-                <h3>Earth Day 2018 community
-                    tree planting event</h3>
+                <h3>Updates from the fall quarterly meeting</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit. Nullam mi felis, auctor vitae
                     vestibulum vel, consequat eu dolor. Nam
@@ -338,7 +356,7 @@
                     nisl porttitor nisl laoreet semper nec iaculis
                     nibh. Curabitur in tortor lorem.</p>
                 <div class="events__flex__info__button">
-                    <span class="events__flex__info__button__text">Read more</span>
+                    <a href="./news-events.html" class="events__flex__info__button__text">Read more</a>
                 </div>
     
             </div>
