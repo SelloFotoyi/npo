@@ -20,6 +20,9 @@
       font-weight: bolder;
       line-height: 1.2;
       padding-right: 0.5rem;
+      a {
+        color: $theme_dark;
+      }
     }
     &__items {
       flex-grow: 1;

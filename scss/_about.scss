@@ -16,55 +16,72 @@
   }
 }
 
+html,
 .about {
-  max-width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
   height: 100%;
-  #{&}-banner {
-    position: relative;
+}
+
+.about-banner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30rem;
+  margin-bottom: 0;
+  #{&}__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    @include flood_font;
+    color: $theme_white;
+    font-size: 2.5rem;
+    padding: 1rem 5rem 0 1rem;
+    line-height: 1.1;
+  }
+  img {
     width: 100%;
-    height: 105.5vh;
-    &__title {
-      position: absolute;
-      width: 25%;
-      left: 1rem;
-      top: 1rem;
-      font-size: 3.5rem;
-      @include flood_font;
-      font-size: $theme_white;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+}
+.about-banner-container {
+  position: absolute;
+  top: 15rem;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+.about-banner-content {
+  width: 80%;
+  height: 100%;
+  background: $theme_white;
+  color: $theme_dark;
+  #{&}__header {
+    @extend %section-title;
+    top: -1.25rem;
+    span {
+      background: $theme_dark;
       color: $theme_white;
     }
-    &__info {
-      position: absolute;
-      bottom: 2rem;
-      left: 10%;
-      width: 80%;
-      height: 47.5%;
-      margin: 0 auto;
-      background: $theme_white;
-      h5 {
-        @extend %section-title;
-        top: -1rem;
-        span {
-          color: $theme_white;
-          background: $theme_dark;
-        }
-      }
-      p {
-        font-weight: bolder;
-        margin: 1.5rem auto;
-        font-size: 1.5rem;
-        padding: 0.5rem;
-        text-align: center;
-        color: $theme_dark;
-      }
-    }
+  }
+  #{&}__info {
+    margin-top: 1.5rem;
+    padding: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.3;
+    font-weight: bold;
+    text-align: center;
   }
 }
 
 .mission {
   padding-top: 2rem;
   width: 100%;
-  height: 200vh;
+  height: 60rem;
   background: $theme_dark;
   #{&}__title {
     @extend %section-title;
@@ -81,6 +98,7 @@
     padding: 0.5rem;
     text-align: center;
     margin-bottom: 2.5rem;
+    line-height: 1.3;
   }
 
   #{&}-grid {
@@ -97,7 +115,11 @@
 
       h5 {
         margin: 0.5rem 0;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
+      }
+      p {
+        font-size: 0.9rem;
+        line-height: 1.2;
       }
     }
   }
@@ -160,7 +182,7 @@
   width: 100%;
   padding-top: 2rem;
   position: relative;
-  height: 120vh;
+  height: 45rem;
   color: $theme_white;
   background: rgba(53, 68, 99, 0.7);
   img {
@@ -168,12 +190,12 @@
     top: 0;
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
     z-index: 0;
   }
   #{&}__title {
     @extend %section-title;
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
     span {
       color: $theme_dark;
       background: $theme_white;
@@ -206,22 +228,23 @@
   position: relative;
   padding-top: 3rem;
   width: 100%;
-  height: 135vh;
+  height: 37.5rem;
   background: $theme_dark;
 
   #{&}__header {
     width: 100%;
-    padding: 0 2.5rem;
-    font-size: 2.5rem;
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.3;
     margin-bottom: 2.5rem;
     @include flood_font;
     text-align: center;
     color: $theme_white;
   }
-  .slider {
+  .about-slider {
     width: 100%;
     margin: 0 auto;
-    height: 100%;
+    //  height: 100%;
     overflow-x: hidden;
     .next-btn {
       position: absolute;
@@ -277,12 +300,12 @@
       input {
         display: none;
       }
-      .slide {
+      .about-slide {
         padding: 1%;
         position: relative;
         width: 20%;
         transition: 1s;
-        height: 100%;
+        height: 27.5rem;
         .header {
           z-index: 1;
           @extend %section-title;
@@ -309,7 +332,7 @@
             position: absolute;
             bottom: 0;
             width: 100%;
-            height: 60%;
+            height: 65%;
             color: $theme_dark;
             background: $theme_white;
             .title {
@@ -331,11 +354,16 @@
               display: flex;
               justify-content: center;
               span {
-                padding: 0.5rem;
+                padding: 0.8rem;
                 background: $theme_light;
                 color: $theme_dark;
                 font-weight: bold;
-                border-radius: 1rem;
+                border-radius: 2rem;
+                &:hover {
+                  transition: 1s;
+                  background: $theme_dark;
+                  color: $theme_light;
+                }
               }
             }
           }

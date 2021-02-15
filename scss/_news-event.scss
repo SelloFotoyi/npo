@@ -14,17 +14,16 @@
     width: 100%;
     height: 30vh;
     &__title {
-      margin-top: 2rem;
       @include flood_font;
       text-transform: uppercase;
       font-size: 2rem;
-      margin-left: 1rem;
       padding-top: 2rem;
+      margin-left: 1rem;
     }
     &__follow {
       width: 90%;
       margin: 0 auto 2rem auto;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       line-height: 2;
       display: flex;
       justify-content: space-evenly;
@@ -58,7 +57,7 @@
 
 .header__blog {
   width: 90%;
-  margin: 1.5rem auto;
+  margin: 2.5rem auto;
   height: 120vh;
   display: flex;
   flex-direction: column;
@@ -67,18 +66,19 @@
   #{&}__content {
     background: $theme_light;
     color: $theme_dark;
-    height: 50%;
+    height: 18rem;
     padding: 1.5rem;
     margin-bottom: 2rem;
     h2 {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
     }
     p {
-      margin-bottom: 2rem;
+      margin-bottom: 0.75rem;
       line-height: 1.3;
     }
     a {
-      margin-top: 2rem;
+      margin-top: 0.5rem;
       text-decoration: underline;
       color: $theme_dark;
     }
@@ -135,22 +135,22 @@
   #{&}__news {
     position: relative;
     width: 100%;
-    height: 45vh;
+    height: 16rem;
     h4 {
       @extend %section-title;
 
       span {
         background-color: $theme_white;
-        width: 70%;
+        width: 50%;
         text-align: left;
         color: $theme_dark;
       }
       position: absolute;
-      top: 37%;
+      top: 33%;
     }
     &__flex {
       width: 100%;
-      height: 50vh;
+      height: 16rem;
       display: flex;
       flex-direction: column;
       img {
@@ -160,10 +160,10 @@
       }
       p {
         background: $theme_dark;
-        height: 50%;
+        height: 60%;
         font-weight: bold;
         color: $theme_white;
-        padding: 1.5rem 0.5rem 0 0.5rem;
+        padding: 2rem 0.5rem 0 0.5rem;
         line-height: 1.2;
 
         a {
@@ -177,7 +177,7 @@
   }
   #{&}__events {
     width: 100%;
-    height: 55vh;
+    height: 18rem;
     grid-column-start: span 2;
     h4 {
       @extend %section-title;
@@ -195,7 +195,7 @@
     }
     &__flex {
       width: 100%;
-      height: 112%;
+      height: 20rem;
       display: flex;
       flex-direction: column;
       div {
