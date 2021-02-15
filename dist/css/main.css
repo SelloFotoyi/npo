@@ -7,6 +7,7 @@
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
+@import url("https://use.typekit.net/rut6oae.css");
 * {
   padding: 0;
   margin: 0;
@@ -784,14 +785,14 @@ footer h1 span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4 {
+.about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span {
+.about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -1336,14 +1337,14 @@ footer h1 span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4 {
+.about .about-banner__info h5, .mission .mission__title, .team .team__title, .impact .impact__title, .history .slider .about-slides .slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span {
+.about .about-banner__info h5 span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .slider .about-slides .slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -1994,6 +1995,8 @@ footer h1 span {
   margin-left: 1rem;
   margin-bottom: 1rem;
   height: 2rem;
+  outline: none;
+  border: none;
   background: none;
   border-bottom: 1px solid #c1f7d5;
   font-size: 1.2rem;
@@ -2464,6 +2467,130 @@ html {
   background: #354463;
   color: #c1f7d5;
   border: 1px solid #c1f7d5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thanks,
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.thanks-main {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+.thanks-main .thanks-main__p {
+  position: absolute;
+  color: #fff;
+  font-size: 1.35rem;
+  width: 80%;
+  padding: 1rem 3.5rem 1rem 1rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.thanks-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.thanks-container {
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks-content {
+  width: 90%;
+  background: #fff;
+  color: #354463;
+  height: 100%;
+}
+
+.thanks-content .thanks-content__header {
+  justify-content: flex-start;
+  margin-left: 2.5rem;
+  top: -1rem;
+}
+
+.thanks-content .thanks-content__header span {
+  background: #354463;
+  color: #fff;
+}
+
+.thanks-content .thanks-content__info {
+  margin-top: 1.5rem;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.thanks-content .thanks-content__grid {
+  width: 95%;
+  display: grid;
+  height: 5vh;
+  margin: 0.5rem auto 1rem auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.thanks-content .thanks-content__grid div {
+  background: #c1f7d5;
+  border-radius: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.thanks-confirm {
+  width: 100%;
+  padding: 1.5rem;
+  height: 20rem;
+  background: #354463;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.thanks-confirm p {
+  line-height: 1.3;
+}
+
+.thanks-confirm .email {
+  color: #c1f7d5;
+  text-decoration: underline;
+}
+
+.thanks-confirm .thanks-confirm__info {
+  line-height: 1.5;
+}
+
+.thanks-confirm .thanks-confirm__statement {
+  margin: 2rem auto;
+  font-family: flood-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.75rem;
 }
 
 body {
