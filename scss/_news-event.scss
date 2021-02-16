@@ -19,6 +19,7 @@
       font-size: 2rem;
       padding-top: 2rem;
       margin-left: 1rem;
+      color: $theme_white;
     }
     &__follow {
       width: 90%;
@@ -30,6 +31,7 @@
       flex-direction: column;
       h4 {
         text-transform: uppercase;
+        color: $theme_white;
       }
       .fab {
         background: $theme_light;
