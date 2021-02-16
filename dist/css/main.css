@@ -668,16 +668,18 @@ html {
 }
 
 .events .events__title {
+  width: 100%;
+  text-align: center;
   font-family: flood-std, sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 0;
   text-transform: uppercase;
   margin: 1rem auto;
   color: #fff;
   width: 100%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .events .events__flex {
@@ -793,7 +795,6 @@ html {
   height: 2.5rem;
   padding: 0.7rem 1rem;
   border-radius: 1rem;
-  margin: 0 0.5rem;
   background: #354463;
   font-weight: bold;
   flex-grow: 1;
