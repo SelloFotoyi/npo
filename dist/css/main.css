@@ -663,7 +663,7 @@ html {
 
 .events {
   width: 100%;
-  height: 92rem;
+  height: 88rem;
   background: #354463;
 }
 
@@ -1144,7 +1144,7 @@ html,
   position: relative;
   padding-top: 3rem;
   width: 100%;
-  height: 43rem;
+  height: 40rem;
   background: #354463;
 }
 
@@ -1163,6 +1163,7 @@ html,
 
 .history .about-slider {
   width: 100%;
+  height: 28rem;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -1766,7 +1767,7 @@ html,
   position: relative;
   padding-top: 3rem;
   width: 100%;
-  height: 43rem;
+  height: 40rem;
   background: #354463;
 }
 
@@ -1785,6 +1786,7 @@ html,
 
 .history .about-slider {
   width: 100%;
+  height: 28rem;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -2007,6 +2009,7 @@ html,
 
 .header__blog .header__blog__img {
   height: 50%;
+  width: 100%;
 }
 
 .header__blog .header__blog__img img {
@@ -2841,6 +2844,67 @@ html {
   font-weight: 400;
   font-style: normal;
   font-size: 1.75rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 360px) {
+  .events {
+    height: 90rem;
+  }
+  .events .events__flex {
+    height: 40rem;
+    margin-bottom: 2rem;
+  }
+  .team .team-grid__item {
+    height: 14rem;
+  }
+  .history {
+    height: 42rem;
+  }
+  .about-slide {
+    overflow-y: hidden;
+  }
+  .claudine, .zainab, .caritas, .euphrasie, .unis, .regina {
+    height: 110rem;
+  }
+  .heading {
+    height: 55rem;
+  }
+  .heading .heading__header {
+    height: 5rem;
+  }
+  .header__blog {
+    justify-content: center;
+  }
+  .header__blog .header__blog__content {
+    height: 15rem;
+  }
+  .news-grid .news-grid__events__flex div a {
+    margin: 0 0 0 1.5rem;
+  }
+  .donation .donation-check__proceed {
+    margin-left: 4rem;
+  }
+  .form-container__form .pay-btn {
+    margin-left: 3.5rem;
+  }
+  .thanks-main {
+    height: 35rem;
+  }
+  .thanks-main .thanks-main__p {
+    line-height: 1.3;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
+  .thanks-container {
+    top: 11.75rem;
+  }
+  .thanks-content {
+    height: 80%;
+  }
+  .nav .nav__upper__items {
+    align-items: center;
+  }
 }
 
 body {

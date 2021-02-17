@@ -43,21 +43,6 @@ $theme_white: #fff;
   text-transform: uppercase;
 }
 
-// @mixin section-title($color, $bg) {
-//   width: 100%;
-//   display: flex;
-//   justify-content: center;
-//   span {
-//     color: $color;
-//     background: $bg;
-//     text-transform: uppercase;
-//     font-weight: normal;
-//     width: 56%;
-//     text-align: center;
-//     padding: 0.6rem;
-//     margin: 0 27vw 0.5rem 27vw;
-//   }
-// }
 %section-title {
   position: relative;
   width: 100%;
@@ -73,59 +58,46 @@ $theme_white: #fff;
   }
 }
 
-%banner {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 30rem;
-  margin-bottom: 0;
-  #{&}__title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    @include flood_font;
-    color: $theme_white;
-    font-size: 2.5rem;
-    padding: 1rem 5rem 0 1rem;
-    line-height: 1.1;
-  }
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
+$mobile-m: 360px;
+$mobile-l: 412px;
+$tablet: 760px;
+$laptop: 1024px;
+$laptop-m: 1260px;
+$laptop-l: 1440px;
+$desktop_4k: 2560px;
+
+@mixin media-mobile-m {
+  @media screen and (min-width: $mobile-m) {
+    @content;
   }
 }
-
-%banner-container {
-  position: absolute;
-  top: 15rem;
-  width: 100%;
-  height: 40%;
-  display: flex;
-  justify-content: center;
-}
-
-%banner-content {
-  width: 80%;
-  height: 100%;
-  background: $theme_white;
-  color: $theme_dark;
-  #{&}__header {
-    @extend %section-title;
-    top: -1.25rem;
-    span {
-      background: $theme_dark;
-      color: $theme_white;
-    }
+@mixin media-mobile-l {
+  @media screen and (min-width: $mobile-l) {
+    @content;
   }
-  #{&}__info {
-    margin-top: 1.5rem;
-    padding: 1.2rem;
-    font-size: 1rem;
-    line-height: 1.3;
-    font-weight: bold;
-    text-align: center;
+}
+@mixin media-tablet {
+  @media screen and (min-width: $tablet) {
+    @content;
+  }
+}
+@mixin media-laptop {
+  @media screen and (min-width: $laptop) {
+    @content;
+  }
+}
+@mixin media-laptop-l {
+  @media screen and (min-width: $laptop-l) {
+    @content;
+  }
+}
+@mixin media-laptop-m {
+  @media screen and (min-width: $laptop-m) {
+    @content;
+  }
+}
+@mixin media-4k {
+  @media screen and (min-width: $desktop_4k) {
+    @content;
   }
 }
