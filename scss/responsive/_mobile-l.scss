@@ -1,0 +1,125 @@
+@include media-mobile-l {
+  .banner {
+    height: 37rem;
+    #{&}__title {
+      padding-right: 10.5rem;
+      left: 1rem;
+    }
+  }
+  .banner-content {
+    height: 95%;
+    #{&}__info {
+      font-size: 1.4rem;
+      height: 70%;
+    }
+    #{&}__link {
+      margin-left: 12.5%;
+    }
+  }
+
+  .do-module {
+    #{&}__div {
+      &__img {
+        img {
+          width: 25rem;
+          height: 12rem;
+        }
+      }
+    }
+  }
+  .events {
+    height: 100rem;
+    #{&}__flex {
+      height: 43rem;
+    }
+    #{&}__title {
+      padding: 1.5rem 2.5rem;
+    }
+  }
+
+  .about-banner {
+    #{&}__title {
+      padding-right: 7rem;
+    }
+  }
+  .about-banner-content {
+    #{&}__info {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+  }
+  .mission {
+    height: 57.5rem;
+  }
+  .team {
+    #{&}__info {
+      padding: 0 1rem;
+    }
+    #{&}__info_p {
+      padding: 0 3rem;
+    }
+    #{&}-grid {
+      &__item {
+        height: 16rem;
+      }
+    }
+  }
+  .heading {
+    height: 52.5rem;
+    #{&}__header {
+      height: 0rem;
+    }
+  }
+  .header__blog {
+    #{&}__img {
+      height: 35%;
+    }
+  }
+
+  .news-grid {
+    #{&}__news {
+      height: 18rem;
+      &__flex {
+        height: 18rem;
+        p {
+          a {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+    #{&}__events {
+      &__flex {
+        div {
+          h3 {
+            padding: 0 1.5rem;
+          }
+          a {
+            margin-left: 15%;
+          }
+        }
+      }
+    }
+  }
+  .donation-container {
+    .donation {
+      &-check {
+        &__proceed {
+          margin-left: 7rem;
+        }
+      }
+    }
+  }
+  .form-main {
+    height: 80rem;
+  }
+  .form-container__form {
+    .pay-btn {
+      margin-left: 5rem;
+    }
+  }
+
+  .thanks-confirm {
+    height: 16rem;
+  }
+}

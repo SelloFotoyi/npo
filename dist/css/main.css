@@ -673,13 +673,12 @@ html {
   font-family: flood-std, sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 1.5rem 0;
+  padding: 1.5rem 1rem;
   text-transform: uppercase;
   margin: 1rem auto;
   color: #fff;
-  width: 100%;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 .events .events__flex {
@@ -2904,6 +2903,94 @@ html {
   }
   .nav .nav__upper__items {
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  .banner {
+    height: 37rem;
+  }
+  .banner .banner__title {
+    padding-right: 10.5rem;
+    left: 1rem;
+  }
+  .banner-content {
+    height: 95%;
+  }
+  .banner-content .banner-content__info {
+    font-size: 1.4rem;
+    height: 70%;
+  }
+  .banner-content .banner-content__link {
+    margin-left: 12.5%;
+  }
+  .do-module .do-module__div__img img {
+    width: 25rem;
+    height: 12rem;
+  }
+  .events {
+    height: 100rem;
+  }
+  .events .events__flex {
+    height: 43rem;
+  }
+  .events .events__title {
+    padding: 1.5rem 2.5rem;
+  }
+  .about-banner .about-banner__title {
+    padding-right: 7rem;
+  }
+  .about-banner-content .about-banner-content__info {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  .mission {
+    height: 57.5rem;
+  }
+  .team .team__info {
+    padding: 0 1rem;
+  }
+  .team .team__info_p {
+    padding: 0 3rem;
+  }
+  .team .team-grid__item {
+    height: 16rem;
+  }
+  .heading {
+    height: 52.5rem;
+  }
+  .heading .heading__header {
+    height: 0rem;
+  }
+  .header__blog .header__blog__img {
+    height: 35%;
+  }
+  .news-grid .news-grid__news {
+    height: 18rem;
+  }
+  .news-grid .news-grid__news__flex {
+    height: 18rem;
+  }
+  .news-grid .news-grid__news__flex p a {
+    margin-top: 1rem;
+  }
+  .news-grid .news-grid__events__flex div h3 {
+    padding: 0 1.5rem;
+  }
+  .news-grid .news-grid__events__flex div a {
+    margin-left: 15%;
+  }
+  .donation-container .donation-check__proceed {
+    margin-left: 7rem;
+  }
+  .form-main {
+    height: 80rem;
+  }
+  .form-container__form .pay-btn {
+    margin-left: 5rem;
+  }
+  .thanks-confirm {
+    height: 16rem;
   }
 }
 
