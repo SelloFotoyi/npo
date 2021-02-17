@@ -755,7 +755,8 @@ html {
 
 .subscribe {
   width: 100%;
-  height: 11rem;
+  padding: 2rem auto;
+  height: 15rem;
   background: #c1f7d5;
 }
 
@@ -766,13 +767,16 @@ html {
   font-weight: bold;
   color: #354463;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .subscribe .subscribe__action {
   width: 95%;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .subscribe .subscribe__action input {
@@ -793,6 +797,7 @@ html {
 .subscribe .subscribe__action__button {
   color: #c1f7d5;
   height: 2.5rem;
+  margin-top: 1.5rem;
   padding: 0.7rem 1rem;
   border-radius: 1rem;
   background: #354463;
