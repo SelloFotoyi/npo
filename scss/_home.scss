@@ -152,6 +152,7 @@ html {
         margin: 0 auto 1.5rem auto;
         text-align: center;
         font-size: 1.1rem;
+        font-weight: bold;
       }
       p {
         margin: 0 auto;
@@ -576,7 +577,6 @@ html {
       margin-top: 1.5rem;
       padding: 0.7rem 1rem;
       border-radius: 1rem;
-      //    margin: 0 0.5rem;
       background: $theme_dark;
       font-weight: bold;
       flex-grow: 1;
@@ -624,7 +624,6 @@ footer {
     font-size: 2rem;
     text-transform: uppercase;
     grid-column-start: 2;
-    // margin-left: -1.5rem;
     @include flood_font;
     span {
       @include flood_font;

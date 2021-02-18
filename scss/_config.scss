@@ -14,34 +14,20 @@ $theme_white: #fff;
   font-weight: 400;
   font-style: normal;
 }
-@mixin read_btn {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  &__text {
-    background: $theme_light;
-    color: $theme_dark;
-    font-weight: bold;
-    border-radius: 2rem;
-    text-align: center;
-    padding: 1rem;
-  }
-}
-@mixin div-title {
-  position: absolute;
-  top: -1rem;
-  left: 21%;
-  width: 50%;
-  text-align: center;
-  height: 2.25rem;
-  background: $theme_dark;
-  color: $theme_white;
-  padding: 0.6rem 0;
-  font-weight: normal;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
+// @mixin read_btn {
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   margin-top: 1rem;
+//   &__text {
+//     background: $theme_light;
+//     color: $theme_dark;
+//     font-weight: bold;
+//     border-radius: 2rem;
+//     text-align: center;
+//     padding: 1rem;
+//   }
+// }
 
 %section-title {
   position: relative;
@@ -60,10 +46,11 @@ $theme_white: #fff;
 
 $mobile-m: 360px;
 $mobile-l: 412px;
-$tablet: 760px;
+$tablet: 768px;
 $laptop: 1024px;
 $laptop-m: 1260px;
 $laptop-l: 1440px;
+$desktop: 1920px;
 $desktop_4k: 2560px;
 
 @mixin media-mobile-m {
@@ -97,7 +84,7 @@ $desktop_4k: 2560px;
   }
 }
 @mixin media-4k {
-  @media screen and (min-width: $desktop_4k) {
+  @media screen and (min-width: $desktop) {
     @content;
   }
 }
