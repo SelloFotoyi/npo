@@ -95,7 +95,6 @@
     }
   }
   .history {
-    height: 40rem;
     #{&}__header {
       font-size: 2.25rem;
       text-align: left;
@@ -113,13 +112,13 @@
         left: auto;
       }
       .about-slides {
+        border: 1px solid red;
         width: 200vw;
         border: 1px solid transparent;
         .about-slide {
           padding: 1% 0;
           .content {
             width: 90%;
-            border: 1px solid red;
             .info {
               height: 80%;
             }

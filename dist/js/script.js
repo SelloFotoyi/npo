@@ -42,7 +42,7 @@
 
     nxt_btn.addEventListener('click',()=>{
       let slides_container_width = getComputedStyle(slides_container).width; 
-        console.log(slides_container_width);
+
       h_counter++;
       if(slides_container_width === '1536px'){
         

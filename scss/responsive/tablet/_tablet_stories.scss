@@ -1,0 +1,43 @@
+@import "../../config", "../../stories";
+
+@include media-tablet {
+  %portal {
+    height: 65rem;
+    h1 {
+      margin: 2.5rem 0;
+    }
+    .index {
+      position: absolute;
+      width: 55%;
+      transform: scale(0.75);
+      left: 1%;
+      top: 5rem;
+    }
+    .top-img {
+      position: absolute;
+      right: 1.5rem;
+      width: 45%;
+      top: 7.5rem;
+    }
+    .quote {
+      position: absolute;
+      left: 8%;
+      top: 25rem;
+      width: 40%;
+      line-height: 1.35;
+    }
+    .btm-img {
+      position: absolute;
+      left: 8%;
+      top: 45rem;
+      width: 40%;
+    }
+    .story {
+      position: absolute;
+      width: 40%;
+      right: 3.5%;
+      top: 25rem;
+      padding-right: 1.5rem;
+    }
+  }
+}
