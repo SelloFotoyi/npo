@@ -9,6 +9,8 @@
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
+@import url("https://use.typekit.net/rut6oae.css");
+@import url("https://use.typekit.net/rut6oae.css");
 * {
   padding: 0;
   margin: 0;
@@ -3019,7 +3021,30 @@ html {
   padding: 0.62rem;
 }
 
-@media screen and (min-width: 650px) {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
+@media screen and (min-width: 760px) {
   .banner .banner__title {
     padding-right: 35rem;
   }
@@ -3218,7 +3243,7 @@ html {
   }
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 760px) {
   .nav {
     height: 7.5rem;
     margin: 0.5rem auto;
@@ -3250,7 +3275,6 @@ html {
   }
   .subscribe .subscribe__action {
     height: 5rem;
-    border: 1px solid red;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -3278,7 +3302,6 @@ html {
     font-size: 1.5rem;
   }
   footer .footer-list {
-    border: 1px solid red;
     height: 7.5rem;
     font-size: 1rem;
   }
@@ -3291,6 +3314,148 @@ html {
   }
   footer h1 span {
     font-size: 3rem;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
+@media screen and (min-width: 760px) {
+  .about-banner .about-banner__title {
+    width: 35%;
+    left: 3rem;
+  }
+  .about-banner img {
+    content: url("../../../dist/img/tablet/about-bg.png");
+  }
+  .about-banner-content .about-banner-content__header {
+    width: 40%;
+  }
+  .about-banner-content .about-banner-content__info {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+  }
+  .mission {
+    height: 42.5rem;
+  }
+  .mission .mission__title {
+    width: 50%;
+    justify-content: flex-start;
+    margin-left: 2.5rem;
+  }
+  .mission .mission__intro {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 0 2.5rem;
+  }
+  .mission .mission-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .team .team__title {
+    width: 50%;
+  }
+  .team .team-grid {
+    gap: 3rem;
+    height: 40%;
+  }
+  .team .team-grid__item {
+    height: 22rem;
+  }
+  .team .team-grid__item img {
+    width: 90%;
+  }
+  .team .team-grid__item span {
+    font-size: 1.35rem;
+    right: 0;
+    left: auto;
+    width: 90%;
+  }
+  .team__info__flex {
+    display: flex;
+  }
+  .team__info__flex .team__info {
+    text-align: left;
+    margin-left: 4.5rem;
+    flex-basis: 50%;
+    line-height: 1.3;
+    font-size: 1.5rem;
+  }
+  .team__info__flex .team__info_p {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  .impact {
+    height: 60%;
+  }
+  .impact .impact__title span {
+    width: 20%;
+  }
+  .impact .impact__info {
+    font-size: 2rem;
+    padding: 0 3rem;
+  }
+  .impact img {
+    content: url("../../../dist/img/tablet/impact-img.png");
+  }
+  .impact .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  .impact .impact-grid__item {
+    transform: scale(1.2);
+  }
+  .history {
+    height: 40rem;
+  }
+  .history .history__header {
+    font-size: 2.25rem;
+    text-align: left;
+    width: 60%;
+    margin-left: 1.5rem;
+  }
+  .history .about-slider .next-btn {
+    top: 12.5%;
+    right: 15%;
+  }
+  .history .about-slider .prev-btn {
+    top: 12.5%;
+    right: 25%;
+    left: auto;
+  }
+  .history .about-slider .about-slides {
+    width: 200vw;
+    border: 1px solid transparent;
+  }
+  .history .about-slider .about-slides .about-slide {
+    padding: 1% 0;
+  }
+  .history .about-slider .about-slides .about-slide .content {
+    width: 90%;
+    border: 1px solid red;
+  }
+  .history .about-slider .about-slides .about-slide .content .info {
+    height: 80%;
   }
 }
 

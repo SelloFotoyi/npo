@@ -46,7 +46,8 @@ $theme_white: #fff;
 
 $mobile-m: 360px;
 $mobile-l: 412px;
-$tablet: 650px;
+$mobile-landscape: 565px;
+$tablet: 760px;
 $laptop: 1024px;
 $laptop-m: 1260px;
 $laptop-l: 1440px;
@@ -60,6 +61,11 @@ $desktop_4k: 2560px;
 }
 @mixin media-mobile-l {
   @media screen and (min-width: $mobile-l) {
+    @content;
+  }
+}
+@mixin media-mobile-landscape {
+  @media screen and (min-width: $mobile-landscape) {
     @content;
   }
 }

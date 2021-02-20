@@ -10,9 +10,15 @@
     //history img slider
     let slides = document.querySelector('.about-slides');
     let prev_btn = document.querySelector('.prev-btn');
-    let prev_btn_arrow = document.querySelector('.fa-arrow-circle-left')
+    let prev_btn_arrow = document.querySelector('.fa-arrow-circle-left');
     let nxt_btn = document.querySelector('.next-btn');
-    let nxt_btn_arrow = document.querySelector('.fa-arrow-circle-right')
+    let nxt_btn_arrow = document.querySelector('.fa-arrow-circle-right');
+    let slides_container = document.querySelector('.about-slides');
+    
+
+     
+    
+
     let h_counter = 0;
     prev_btn_arrow.style.opacity = '0.5';
     prev_btn.addEventListener('click',()=>{
@@ -35,9 +41,19 @@
     });
 
     nxt_btn.addEventListener('click',()=>{
+      let slides_container_width = getComputedStyle(slides_container).width; 
+        console.log(slides_container_width);
       h_counter++;
-      if(h_counter > 4){
-        h_counter = 0;
+      if(slides_container_width === '1536px'){
+        
+          if(h_counter > 1){
+            h_counter = 0;
+          }
+      }
+      else if(slides_container_width === '1875px'){
+        if(h_counter > 4){
+          h_counter = 0;
+        }
       }
 
       if(h_counter <= 0){
