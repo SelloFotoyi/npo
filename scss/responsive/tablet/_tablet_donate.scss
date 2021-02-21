@@ -1,0 +1,156 @@
+@import "../../config", "../../donate";
+
+@include media-tablet {
+  %donation-template {
+    flex-direction: row;
+    p {
+      align-self: center;
+      font-size: 1.5rem;
+      padding: 0 2rem;
+    }
+  }
+  .donate-header {
+    height: 7.5rem;
+    a {
+      padding-top: 1rem;
+      font-size: 2rem;
+    }
+  }
+  .donation-container {
+    .donation {
+      h3 {
+        font-size: 2.5rem;
+      }
+      .own-amount {
+        margin-top: 1.5rem;
+        font-size: 2rem;
+      }
+      .donation-check {
+        &__cancel {
+          font-size: 2.5rem;
+          margin-left: 2.5%;
+        }
+        &__proceed {
+          margin-left: 35%;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  .form-main {
+    margin: 0 auto;
+    #{&}__title {
+      margin: 1.5rem 0;
+      font-size: 3rem;
+      padding: 1.5rem 2.5rem;
+      color: lighten($theme_white, 100%);
+    }
+    img {
+      content: url("../../dist/img/tablet/form-bg.png");
+    }
+  }
+  .form-container__form {
+    height: 85%;
+    h2 {
+      font-size: 2rem;
+    }
+    .names-flex {
+      width: 95%;
+      margin: 0 auto;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      div {
+        flex-basis: 48%;
+        input {
+          width: 90;
+        }
+      }
+    }
+    .location-flex {
+      flex-direction: row;
+      &__state-zip {
+        div {
+          input {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .paycard-flex {
+      flex-direction: row;
+      &__exp {
+        flex-basis: 60%;
+      }
+      &__cvc {
+        align-self: center;
+        justify-content: flex-end;
+        label {
+          margin-top: 0;
+        }
+      }
+    }
+    .pay-info {
+      font-size: 2rem;
+      width: 80%;
+      margin: 1rem auto 3.5rem auto;
+    }
+    .pay-btn {
+      font-size: 1.75rem;
+      margin-left: 30%;
+    }
+    .cancel-pay {
+      margin-left: 7.5%;
+      font-size: 1.75rem;
+    }
+  }
+
+  .donation-period {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    .donation-month,
+    .donation-once {
+      justify-content: space-between;
+    }
+  }
+
+  .thanks-main {
+    img {
+      content: url("../../dist/img/tablet/thanks-bg.png");
+    }
+    #{&}__p {
+      font-size: 2rem;
+      margin-left: 2rem;
+      width: 68%;
+      padding-right: 3.1rem;
+    }
+  }
+
+  .thanks-content {
+    width: 85%;
+    #{&}__header {
+      width: 50%;
+    }
+    #{&}__info {
+      font-size: 1.5rem;
+      padding: 1.2rem 2rem 2.5rem 2rem;
+    }
+    #{&}__grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  .thanks-confirm {
+    flex-direction: row;
+    justify-content: space-between;
+    #{&}__info {
+      flex-basis: 100%;
+      padding-top: 5%;
+      font-size: 1.2rem;
+      padding-right: 1rem;
+    }
+    #{&}__statement {
+      flex-basis: 50%;
+    }
+  }
+}

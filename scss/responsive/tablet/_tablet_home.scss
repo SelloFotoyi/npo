@@ -1,4 +1,4 @@
-@import "../../config";
+//@import "../../config";
 
 @include media-tablet {
   .banner {
@@ -13,9 +13,11 @@
     top: 16rem;
   }
   .banner-content {
-    #{&}__header {
-      width: 50%;
-    }
+    //   #{&}__header {
+    //     width: 50%;
+    //     span {
+    //     }
+    //   }
     #{&}__info {
       height: 60%;
       font-size: 1.75rem;
@@ -55,7 +57,6 @@
       content: url("../../../dist/img/tablet/know-img.png");
     }
     #{&}__content {
-      border: 1px solid green;
       flex-direction: row;
       &__header {
         margin-top: -30rem;
@@ -139,8 +140,6 @@
   .slide {
     #{&}__header {
       width: 40%;
-      span {
-      }
     }
     #{&}__content {
       &__img {

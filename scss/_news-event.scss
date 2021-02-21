@@ -133,12 +133,14 @@
   margin: 1.5rem auto;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-auto-flow: dense;
 
   #{&}__news {
     position: relative;
     width: 100%;
     height: 16rem;
+    grid-column: span 1;
     h4 {
       @extend %section-title;
 
@@ -181,7 +183,7 @@
   #{&}__events {
     width: 100%;
     height: 18rem;
-    grid-column-start: span 2;
+    grid-column: span 2;
     h4 {
       @extend %section-title;
       justify-content: flex-start;

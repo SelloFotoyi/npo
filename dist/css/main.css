@@ -15,6 +15,7 @@
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
+@import url("https://use.typekit.net/rut6oae.css");
 * {
   padding: 0;
   margin: 0;
@@ -2074,13 +2075,15 @@ html,
   margin: 1.5rem auto;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-auto-flow: dense;
 }
 
 .news-grid .news-grid__news {
   position: relative;
   width: 100%;
   height: 16rem;
+  grid-column: span 1;
 }
 
 .news-grid .news-grid__news h4 {
@@ -2127,7 +2130,7 @@ html,
 .news-grid .news-grid__events {
   width: 100%;
   height: 18rem;
-  grid-column-start: span 2;
+  grid-column: span 2;
 }
 
 .news-grid .news-grid__events h4 {
@@ -3031,30 +3034,7 @@ html {
   padding: 0.62rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
-  position: absolute;
-  text-transform: uppercase;
-  font-weight: normal;
-  width: 50%;
-  text-align: center;
-  padding: 0.62rem;
-}
-
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .banner .banner__title {
     padding-right: 35rem;
   }
@@ -3063,9 +3043,6 @@ html {
   }
   .banner-container {
     top: 16rem;
-  }
-  .banner-content .banner-content__header {
-    width: 50%;
   }
   .banner-content .banner-content__info {
     height: 60%;
@@ -3096,7 +3073,6 @@ html {
     content: url("../../../dist/img/tablet/know-img.png");
   }
   .know-module .know-module__content {
-    border: 1px solid green;
     flex-direction: row;
   }
   .know-module .know-module__content__header {
@@ -3276,7 +3252,7 @@ html {
   padding: 0.62rem;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .about-banner .about-banner__title {
     width: 35%;
     left: 3rem;
@@ -3285,7 +3261,7 @@ html {
     content: url("../../../dist/img/tablet/about-bg.png");
   }
   .about-banner-content .about-banner-content__header {
-    width: 40%;
+    width: 25%;
   }
   .about-banner-content .about-banner-content__info {
     text-align: left;
@@ -3333,7 +3309,7 @@ html {
   .team__info__flex .team__info {
     text-align: left;
     margin-left: 4.5rem;
-    flex-basis: 50%;
+    flex-basis: 60%;
     line-height: 1.3;
     font-size: 1.5rem;
   }
@@ -3343,9 +3319,6 @@ html {
   }
   .impact {
     height: 60%;
-  }
-  .impact .impact__title span {
-    width: 20%;
   }
   .impact .impact__info {
     font-size: 2rem;
@@ -3599,7 +3572,7 @@ html {
   color: #354463;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .claudine, .zainab, .caritas, .euphrasie, .unis, .regina {
     height: 65rem;
   }
@@ -3664,7 +3637,7 @@ html {
   padding: 0.62rem;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .heading {
     height: 40rem;
   }
@@ -3744,16 +3717,51 @@ html {
     align-items: center;
   }
   .news-grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: 1fr;
-    grid-template-areas: "1r 1r 1r" "2r 1r" "1r 2r" "1r";
+    width: 80%;
+    gap: 1.5rem;
   }
-  __news {
-    grid-area: 1r;
+  .news-grid .news-grid__news__flex img {
+    content: url("../../dist/img/tablet/meeting.png");
   }
-  __events {
-    grid-area: 2r;
+  .news-grid .news-grid__news__flex p {
+    padding: 2rem 1rem;
   }
+  .news-grid .news-grid__events h4 {
+    width: 70%;
+  }
+  .news-grid .news-grid__events__flex div h3 {
+    text-align: left;
+  }
+  .news-grid .news-grid__events__flex div a {
+    text-align: left;
+    margin-left: 0;
+  }
+  .news-grid .news-grid__events__flex img {
+    content: url("../../dist/img/tablet/do-img-1.png");
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
 }
 
 * {
@@ -3992,38 +4000,14 @@ html {
   border: 1px solid #c1f7d5;
 }
 
-@media screen and (min-width: 760px) {
-  .nav {
-    height: 7.5rem;
-    margin: 0.5rem auto;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .nav .nav__upper {
-    flex-direction: column;
-  }
-  .nav .nav__upper__logo a {
-    font-size: 1.5rem;
-  }
-  .nav .nav__upper__items {
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 0.75rem 0 0 0;
-  }
-  .nav .nav__upper__items__link {
-    margin-right: 2.5rem;
-    font-size: 1rem;
-  }
-  .nav .nav__button {
-    flex-basis: 30%;
-  }
+@media screen and (min-width: 768px) {
   .donation-container .donation-10, .donation-container .donation-20, .donation-container .donation-50, .donation-container .donation-month, .donation-container .donation-once {
     flex-direction: row;
   }
   .donation-container .donation-10 p, .donation-container .donation-20 p, .donation-container .donation-50 p, .donation-container .donation-month p, .donation-container .donation-once p {
-    border: 1px solid white;
     align-self: center;
     font-size: 1.5rem;
+    padding: 0 2rem;
   }
   .donate-header {
     height: 7.5rem;
@@ -4153,6 +4137,96 @@ html {
   }
   .thanks-confirm .thanks-confirm__statement {
     flex-basis: 50%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    height: 7.5rem;
+    margin: 0.5rem auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav .nav__upper {
+    flex-direction: column;
+  }
+  .nav .nav__upper__logo a {
+    font-size: 1.5rem;
+  }
+  .nav .nav__upper__items {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0.75rem 0 0 0;
+  }
+  .nav .nav__upper__items__link {
+    margin-right: 2.5rem;
+    font-size: 1rem;
+  }
+  .nav .nav__button {
+    flex-basis: 30%;
+  }
+  .banner-content .banner-content__header {
+    width: 50%;
+  }
+  .action-module .action-module__title span {
+    width: 20%;
+  }
+  .do-module h3 {
+    width: 40%;
+  }
+  .know-module .know-module__content__facts__title {
+    width: 50%;
+  }
+  .know-module .know-module__content__facts__title span {
+    width: 60%;
+  }
+  .slide .slide__header {
+    width: 50%;
+  }
+  .about-banner-content .about-banner-content__header {
+    width: 50%;
+  }
+  .mission .mission__title {
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .mission .mission__title span {
+    width: 50%;
+  }
+  .team .team__title {
+    width: 50%;
+  }
+  .impact .impact__title span {
+    width: 20%;
+  }
+  .news-grid .news-grid__events h4 {
+    width: 60%;
+  }
+  .news-grid .news-grid__events h4 span {
+    text-align: left;
   }
   .subscribe .subscribe__text {
     text-align: left;
