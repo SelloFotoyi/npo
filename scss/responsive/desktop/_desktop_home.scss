@@ -1,0 +1,231 @@
+@include media-desktop__sm {
+  .banner {
+    #{&}__title {
+      width: 10%;
+      right: -10rem;
+      top: 5rem;
+      left: auto;
+      font-size: 4rem;
+    }
+    img {
+      content: url("../../../dist/img/desktop/banner-img.png");
+    }
+  }
+  .banner-container {
+    top: 7rem;
+    width: 55%;
+    height: 26rem;
+  }
+  .banner-content {
+    #{&}__info {
+      font-size: 2.25rem;
+      text-align: left;
+      padding: 2.5rem 3rem;
+      margin-bottom: 3rem;
+    }
+    #{&}__link {
+      margin-top: 5rem;
+      font-size: 1.1rem;
+    }
+  }
+  .action-module {
+    #{&}__title {
+      span {
+        width: 15%;
+      }
+    }
+    #{&}__grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      &__item {
+        p {
+          font-size: 0.95rem;
+          padding-right: 0rem;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .do-module {
+    height: 55rem;
+    h3 {
+      width: 30%;
+    }
+    p {
+      font-size: 2rem;
+    }
+    #{&}-divs {
+      display: flex;
+      width: 95%;
+      margin: 0 auto;
+      height: 50rem;
+      .do-module__div {
+        width: 28%;
+        height: 60%;
+        &__img {
+          height: 40%;
+          width: 100%;
+          margin-left: 1rem;
+          background: transparent;
+          display: block;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        &__info {
+          position: static;
+          width: 95%;
+          margin: 0 auto;
+
+          h4 {
+            font-size: 1.5rem;
+            padding: 0 0 0 1.75rem;
+            width: 100%;
+            text-align: left;
+          }
+          p {
+            font-size: 1rem;
+            padding: 0 1.5rem;
+          }
+        }
+        &__button {
+          width: 100%;
+          margin-left: 2rem;
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+  .know-module {
+    img {
+      content: url("../../../dist/img/desktop/know-img.png");
+    }
+    #{&}__content {
+      &__header {
+        margin-left: 5rem;
+        h2 {
+          font-size: 3rem;
+        }
+        a {
+          font-size: 1.25rem;
+          border-radius: 1.5rem;
+        }
+      }
+      &__facts {
+        &__title {
+          justify-content: flex-end;
+          width: 60%;
+          span {
+            width: 40%;
+          }
+        }
+        &__container {
+          align-items: flex-end;
+          &__item {
+            padding: 2.5rem;
+            width: 80%;
+            height: 80%;
+            .socials {
+              justify-content: center;
+              .fab {
+                margin-top: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .slider {
+    height: 40rem;
+    width: 95%;
+    margin-bottom: 0;
+  }
+  .slide {
+    margin-bottom: 0;
+    #{&}__header {
+      justify-content: flex-end;
+      width: 60%;
+      z-index: 5;
+      span {
+        width: 40%;
+      }
+    }
+    #{&}__content {
+      height: 35rem;
+      &__img {
+        width: 70%;
+        height: 100%;
+        position: relative;
+        right: -20rem;
+      }
+      &__info {
+        position: relative;
+        width: 45%;
+        height: 60%;
+        top: -28rem;
+        left: 0rem;
+        padding: 3.5rem 1rem 2rem 2rem;
+        font-size: 1.5rem;
+        text-align: left;
+      }
+      &__button {
+        position: relative;
+        top: -23.5rem;
+        left: -5rem;
+      }
+    }
+  }
+  .navigation-manual {
+    flex-direction: row;
+    width: 20%;
+    top: 2.5rem;
+    bottom: auto;
+    left: 0rem;
+    justify-content: flex-start;
+    align-items: center;
+    .manual-btn:not(:last-child) {
+      align-self: center;
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+  }
+  .events {
+    #{&}__title {
+      font-size: 3.5rem;
+      margin-top: 2.5rem;
+      padding-right: 20rem;
+    }
+    #{&}__flex {
+      border: 1px solid red;
+      height: 25rem;
+      margin-bottom: 5rem;
+      &__img {
+        h4 {
+          left: 80%;
+          span {
+            width: 40%;
+          }
+        }
+      }
+      &__info {
+        &__button {
+          border: 1px solid rgb(134, 120, 120);
+          justify-content: flex-start;
+          width: 70%;
+          margin-left: 2%;
+        }
+      }
+      &:last-child {
+        div:first-child {
+          h4 {
+            left: -158%;
+          }
+          order: 2;
+        }
+      }
+    }
+  }
+}

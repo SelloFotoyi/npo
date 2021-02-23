@@ -34,9 +34,9 @@ $mobile-m: 360px;
 $mobile-l: 412px;
 $mobile-xl: 640px;
 $tablet: 768px;
-$laptop: 1024px;
-$laptop-l: 1280px;
-$desktop: 1536px;
+$desktop__sm: 1024px;
+$laptop__m: 1280px;
+$desktop__l: 1536px;
 
 @mixin media-mobile-m {
   @media screen and (min-width: $mobile-m) {
@@ -58,19 +58,19 @@ $desktop: 1536px;
     @content;
   }
 }
-@mixin media-laptop {
-  @media screen and (min-width: $laptop) {
+@mixin media-desktop__sm {
+  @media screen and (min-width: $desktop__sm) {
     @content;
   }
 }
-@mixin media-laptop-l {
-  @media screen and (min-width: $laptop-l) {
+@mixin media-desktop__m {
+  @media screen and (min-width: $desktop__m) {
     @content;
   }
 }
 
-@mixin media-desktop {
-  @media screen and (min-width: $desktop) {
+@mixin media-desktop__l {
+  @media screen and (min-width: $desktop__l) {
     @content;
   }
 }

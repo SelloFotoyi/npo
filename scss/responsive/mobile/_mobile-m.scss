@@ -1,0 +1,83 @@
+@include media-mobile-m {
+  .events {
+    height: 95rem;
+    #{&}__flex {
+      height: 40rem;
+      margin-bottom: 2rem;
+    }
+  }
+  .team {
+    #{&}-grid {
+      &__item {
+        height: 14rem;
+      }
+    }
+  }
+  .history {
+    height: 42rem;
+  }
+  .about-slide {
+    overflow-y: hidden;
+  }
+
+  %portal {
+    height: 110rem;
+  }
+  .heading {
+    #{&}__header {
+      height: 5rem;
+    }
+    height: 55rem;
+  }
+  .header__blog {
+    justify-content: center;
+    #{&}__content {
+      height: 15rem;
+    }
+  }
+  .news-grid {
+    #{&}__events {
+      &__flex {
+        div {
+          a {
+            margin: 0 0 0 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .donation {
+    #{&}-check {
+      &__proceed {
+        margin-left: 4rem;
+      }
+    }
+  }
+  .form-container__form {
+    .pay-btn {
+      margin-left: 3.5rem;
+    }
+  }
+  .thanks-main {
+    height: 35rem;
+    #{&}__p {
+      line-height: 1.3;
+      font-size: 1.4rem;
+      margin-top: 1.5rem;
+    }
+  }
+  .thanks-container {
+    top: 11.75rem;
+  }
+  .thanks-content {
+    height: 80%;
+  }
+  .nav {
+    #{&}__upper {
+      &__items {
+        align-items: center;
+      }
+    }
+  }
+}

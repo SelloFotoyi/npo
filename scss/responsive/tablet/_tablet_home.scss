@@ -1,5 +1,3 @@
-//@import "../../config";
-
 @include media-tablet {
   .banner {
     #{&}__title {
@@ -13,11 +11,6 @@
     top: 16rem;
   }
   .banner-content {
-    //   #{&}__header {
-    //     width: 50%;
-    //     span {
-    //     }
-    //   }
     #{&}__info {
       height: 60%;
       font-size: 1.75rem;

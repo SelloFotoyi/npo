@@ -590,7 +590,7 @@ html {
     }
   }
 }
-footer {
+.footer {
   width: 96%;
   height: 95vh;
   padding: 1.5rem 2rem;
@@ -603,20 +603,22 @@ footer {
     color: $theme_dark;
   }
   .footer-list {
-    color: $theme_dark;
-    text-transform: uppercase;
     list-style-type: none;
-
+    span {
+      color: $theme_dark;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
     li {
       font-size: 0.9rem;
       text-transform: none;
       color: $theme_dark;
       margin-top: 0.5rem;
-    }
-    a {
-      text-decoration: underline;
-      color: $theme_dark;
-      line-height: 1.5;
+      a {
+        text-decoration: underline;
+        color: $theme_dark;
+        line-height: 1.5;
+      }
     }
   }
   h1 {
