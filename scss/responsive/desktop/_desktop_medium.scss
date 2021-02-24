@@ -99,7 +99,7 @@
     }
   }
   .team {
-    height: 75rem;
+    height: 60rem;
     margin-bottom: 2.5rem;
     #{&}__title {
       width: 35%;
@@ -118,17 +118,17 @@
       margin-right: 5rem;
     }
     #{&}-grid {
-      gap: 3.5rem;
+      gap: 0.5rem;
       width: 85%;
-      margin: 3rem auto;
-      height: 75%;
+      margin: 1.5rem auto;
+      height: 60%;
       &__item {
-        height: 95%;
-        img {
-          height: 100%;
-        }
+        transform: scale(0.8);
         span {
           bottom: -2rem;
+          width: 100%;
+          left: 10%;
+          font-size: 1.5rem;
         }
       }
     }

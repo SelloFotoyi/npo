@@ -1064,8 +1064,6 @@ html,
 }
 
 .team .team-grid__item img {
-  position: absolute;
-  top: 0;
   width: 100%;
   object-fit: cover;
 }
@@ -1674,8 +1672,6 @@ html,
 }
 
 .team .team-grid__item img {
-  position: absolute;
-  top: 0;
   width: 100%;
   object-fit: cover;
 }
@@ -4727,7 +4723,7 @@ html {
     padding-right: 2.5rem;
   }
   .team {
-    height: 75rem;
+    height: 60rem;
     margin-bottom: 2.5rem;
   }
   .team .team__title {
@@ -4747,19 +4743,19 @@ html {
     margin-right: 5rem;
   }
   .team .team-grid {
-    gap: 3.5rem;
+    gap: 0.5rem;
     width: 85%;
-    margin: 3rem auto;
-    height: 75%;
+    margin: 1.5rem auto;
+    height: 60%;
   }
   .team .team-grid__item {
-    height: 95%;
-  }
-  .team .team-grid__item img {
-    height: 100%;
+    transform: scale(0.8);
   }
   .team .team-grid__item span {
     bottom: -2rem;
+    width: 100%;
+    left: 10%;
+    font-size: 1.5rem;
   }
   .impact .impact__info {
     margin-top: 5.5rem;
