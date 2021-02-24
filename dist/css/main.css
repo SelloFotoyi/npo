@@ -4757,6 +4757,9 @@ html {
     left: 10%;
     font-size: 1.5rem;
   }
+  .impact {
+    height: 50rem;
+  }
   .impact .impact__info {
     margin-top: 5.5rem;
   }
