@@ -1,0 +1,145 @@
+@include media-desktop__m {
+  .banner {
+    #{&}__title {
+      right: 0rem;
+    }
+  }
+  .banner-content {
+    #{&}__info {
+      font-size: 2.75rem;
+    }
+    #{&}__link {
+      font-size: 1.5rem;
+    }
+  }
+  .do-module {
+    h3 {
+      width: 25%;
+    }
+  }
+  .know-module {
+    #{&}__content {
+      &__header {
+        h2 {
+          font-size: 3.25rem;
+          width: 75%;
+        }
+      }
+      &__facts {
+        right: -10%;
+      }
+    }
+  }
+  .slide {
+    #{&}__header {
+      span {
+        width: 30%;
+      }
+    }
+    #{&}__content {
+      &__img {
+        right: -25rem;
+      }
+      &__info {
+        left: 2.5rem;
+      }
+      &__button {
+        left: -2rem;
+      }
+    }
+  }
+  .navigation-manual {
+    left: 3.5rem;
+  }
+  .events {
+    #{&}__title {
+      padding-right: 10rem;
+      width: 60%;
+      margin-left: 5rem;
+    }
+    #{&}__flex {
+      width: 90%;
+      &__img {
+        h4 {
+          left: 78%;
+        }
+      }
+
+      &:last-child {
+        div:first-child {
+          h4 {
+            left: -156%;
+          }
+          order: 2;
+        }
+      }
+    }
+  }
+
+  .mission {
+    #{&}__title {
+      width: 30%;
+      justify-content: flex-start;
+      margin-left: 7.5%;
+    }
+
+    #{&}__intro {
+      width: 90%;
+      margin: 2rem auto;
+    }
+    #{&}-grid {
+      width: 85%;
+      gap: 0.5rem;
+      &_item {
+        // border: 1px solid red;
+      }
+      p {
+        padding-right: 2.5rem;
+      }
+    }
+  }
+  .team {
+    height: 100vh;
+    margin-bottom: 2.5rem;
+    #{&}__title {
+      width: 35%;
+    }
+    .team__info__flex {
+      width: 95%;
+      margin: 0 auto;
+      align-items: center;
+    }
+    #{&}__info {
+      font-size: 2rem;
+      flex-basis: 35%;
+    }
+    #{&}__info_p {
+      flex-basis: 40%;
+      margin-right: 5rem;
+    }
+    #{&}-grid {
+      gap: 3.5rem;
+      width: 85%;
+      margin: 3rem auto;
+      height: 75%;
+      &__item {
+        height: 95%;
+        img {
+          height: 100%;
+        }
+        span {
+          bottom: -2rem;
+        }
+      }
+    }
+  }
+
+  .impact {
+    #{&}__info {
+      margin-top: 5.5rem;
+    }
+    #{&}-grid {
+      margin-top: 10rem;
+    }
+  }
+}

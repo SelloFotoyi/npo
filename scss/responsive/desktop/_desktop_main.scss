@@ -1,4 +1,5 @@
-@import "./desktop_home", "./desktop_about", "./desktop_donate";
+@import "./desktop_home", "./desktop_about", "./desktop_donate",
+  "./desktop_medium";
 
 @include media-desktop__sm {
   .nav {

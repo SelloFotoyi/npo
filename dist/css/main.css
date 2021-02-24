@@ -4658,6 +4658,117 @@ html {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .banner .banner__title {
+    right: 0rem;
+  }
+  .banner-content .banner-content__info {
+    font-size: 2.75rem;
+  }
+  .banner-content .banner-content__link {
+    font-size: 1.5rem;
+  }
+  .do-module h3 {
+    width: 25%;
+  }
+  .know-module .know-module__content__header h2 {
+    font-size: 3.25rem;
+    width: 75%;
+  }
+  .know-module .know-module__content__facts {
+    right: -10%;
+  }
+  .slide .slide__header span {
+    width: 30%;
+  }
+  .slide .slide__content__img {
+    right: -25rem;
+  }
+  .slide .slide__content__info {
+    left: 2.5rem;
+  }
+  .slide .slide__content__button {
+    left: -2rem;
+  }
+  .navigation-manual {
+    left: 3.5rem;
+  }
+  .events .events__title {
+    padding-right: 10rem;
+    width: 60%;
+    margin-left: 5rem;
+  }
+  .events .events__flex {
+    width: 90%;
+  }
+  .events .events__flex__img h4 {
+    left: 78%;
+  }
+  .events .events__flex:last-child div:first-child {
+    order: 2;
+  }
+  .events .events__flex:last-child div:first-child h4 {
+    left: -156%;
+  }
+  .mission .mission__title {
+    width: 30%;
+    justify-content: flex-start;
+    margin-left: 7.5%;
+  }
+  .mission .mission__intro {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .mission .mission-grid {
+    width: 85%;
+    gap: 0.5rem;
+  }
+  .mission .mission-grid p {
+    padding-right: 2.5rem;
+  }
+  .team {
+    height: 100vh;
+    margin-bottom: 2.5rem;
+  }
+  .team .team__title {
+    width: 35%;
+  }
+  .team .team__info__flex {
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .team .team__info {
+    font-size: 2rem;
+    flex-basis: 35%;
+  }
+  .team .team__info_p {
+    flex-basis: 40%;
+    margin-right: 5rem;
+  }
+  .team .team-grid {
+    gap: 3.5rem;
+    width: 85%;
+    margin: 3rem auto;
+    height: 75%;
+  }
+  .team .team-grid__item {
+    height: 95%;
+  }
+  .team .team-grid__item img {
+    height: 100%;
+  }
+  .team .team-grid__item span {
+    bottom: -2rem;
+  }
+  .impact .impact__info {
+    margin-top: 5.5rem;
+  }
+  .impact .impact-grid {
+    margin-top: 10rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .nav {
     height: 7rem;
