@@ -899,23 +899,6 @@ html {
   padding: 0.62rem;
 }
 
-.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
-  position: absolute;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 1rem;
-  width: 50%;
-  text-align: center;
-  padding: 0.62rem;
-}
-
 html,
 .about {
   width: 100%;
@@ -1521,23 +1504,6 @@ html,
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
-  width: 50%;
-  text-align: center;
-  padding: 0.62rem;
-}
-
-.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
-  position: absolute;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 1rem;
   width: 50%;
   text-align: center;
   padding: 0.62rem;
@@ -4439,7 +4405,6 @@ html {
     padding-right: 20rem;
   }
   .events .events__flex {
-    border: 1px solid red;
     height: 25rem;
     margin-bottom: 5rem;
   }
@@ -4450,7 +4415,6 @@ html {
     width: 40%;
   }
   .events .events__flex__info__button {
-    border: 1px solid #867878;
     justify-content: flex-start;
     width: 70%;
     margin-left: 2%;
@@ -4460,6 +4424,237 @@ html {
   }
   .events .events__flex:last-child div:first-child h4 {
     left: -158%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-banner {
+    height: 20rem;
+  }
+  .about-banner .about-banner__title {
+    left: 5%;
+    top: 20%;
+    font-size: 4rem;
+  }
+  .about-banner img {
+    content: url("../../../dist/img/desktop/about-bg.png");
+  }
+  .about-banner-container {
+    right: 2%;
+    top: 35%;
+    left: auto;
+    width: 50%;
+    height: 80%;
+  }
+  .mission {
+    height: 40rem;
+    padding-top: 7.5rem;
+  }
+  .mission .mission__title {
+    width: 40%;
+  }
+  .mission .mission__intro {
+    font-size: 2rem;
+  }
+  .mission .mission-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .mission .mission-grid_item h5 {
+    font-size: 1.3rem;
+  }
+  .team .team__title {
+    width: 30%;
+  }
+  .team .team__info {
+    font-size: 1.75rem;
+    flex-basis: 40%;
+  }
+  .team .team__info_p {
+    flex-basis: 60%;
+    line-height: 1.3;
+  }
+  .team .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .team .team-grid__item {
+    height: 20rem;
+  }
+  .impact img {
+    content: url("../../../dist/img/desktop/impact-bg.png");
+  }
+  .impact .impact__info {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+  }
+  .impact .impact-grid {
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+  }
+  .history {
+    height: 60rem;
+  }
+  .history .history__header {
+    font-size: 2.75rem;
+  }
+  .history .about-slider {
+    height: 95%;
+  }
+  .history .about-slider .about-slides {
+    height: 100%;
+  }
+  .history .about-slider .about-slides .about-slide {
+    height: 100%;
+  }
+  .history .about-slider .about-slides .about-slide .content {
+    height: 80%;
+  }
+  .history .about-slider .about-slides .about-slide .content img {
+    height: 50%;
+  }
+  .history .about-slider .about-slides .about-slide .content .info {
+    height: 50%;
+  }
+  .history .about-slider .about-slides .about-slide .content .info .title {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .history .about-slider .about-slides .about-slide .content .info .text {
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 0 1.5rem;
+  }
+  .history .about-slider .about-slides .about-slide .content .info .button {
+    margin-top: 2rem;
+    justify-content: flex-start;
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .donation-container .donation-10, .donation-container .donation-20, .donation-container .donation-50, .donation-container .donation-month, .donation-container .donation-once {
+    height: 8.5rem;
+  }
+  .donation-container .donation-10 div label, .donation-container .donation-20 div label, .donation-container .donation-50 div label, .donation-container .donation-month div label, .donation-container .donation-once div label {
+    width: 2rem;
+    height: 2rem;
+  }
+  .donation-container .donation-10 div span, .donation-container .donation-20 div span, .donation-container .donation-50 div span, .donation-container .donation-month div span, .donation-container .donation-once div span {
+    font-size: 2.5rem;
+  }
+  .donation-container .donation-10 p, .donation-container .donation-20 p, .donation-container .donation-50 p, .donation-container .donation-month p, .donation-container .donation-once p {
+    font-size: 1.2rem;
+  }
+  .donate-main {
+    height: 60rem;
+  }
+  .donate-main img {
+    content: url("../../../dist/img/desktop/donate-bg.png");
+  }
+  .donate-main .donate-title {
+    font-size: 3.5rem;
+    right: 3%;
+    top: 5%;
+    width: 35%;
+  }
+  .donation-container {
+    width: 55%;
+    height: 95%;
+    left: 5%;
+    top: 2%;
+  }
+  .donation-container .donation h3 {
+    font-size: 1.75rem;
+  }
+  .donation-container .donation .own-amount {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .donation-container .donation .donation-check {
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .donation-container .donation .donation-check__cancel {
+    font-size: 1.5rem;
+  }
+  .donation-container .donation .donation-check__proceed {
+    font-size: 1.4rem;
+  }
+  .donation-container .donation-month {
+    margin-left: 0;
+  }
+  .donation-container .donation-month div span {
+    font-size: 1.5rem;
+  }
+  .donation-container .donation-once div span {
+    font-size: 1.5rem;
+  }
+  .form-main {
+    height: 90rem;
+  }
+  .form-main .form-main__title {
+    width: 35%;
+    top: 2%;
+    right: 4%;
+  }
+  .form-main img {
+    content: url("../../../dist/img/desktop/form-bg.png");
+  }
+  .form-container {
+    width: 65%;
+    left: 1%;
+  }
+  .form-container__form {
+    height: 75%;
+  }
+  .form-container__form .pay-info {
+    font-size: 1.5rem;
+    padding: 1.5rem 0.5rem;
+  }
+  .thanks-main .thanks-main__p {
+    width: 35%;
+    position: absolute;
+    top: 25%;
+    font-size: 2rem;
+    left: 0;
+  }
+  .thanks-main img {
+    content: url("../../../dist/img/desktop/thanks-bg.png");
+  }
+  .thanks-container {
+    width: 50%;
+    height: 70%;
+    right: 5%;
+    top: 15%;
+  }
+  .thanks-content {
+    width: 100%;
+    display: flex;
+  }
+  .thanks-content .thanks-content__info {
+    padding: 0;
+    height: 80%;
+    margin-left: -80%;
+    width: 75%;
+    padding-top: 3.5rem;
+    padding-left: 0;
+    line-height: 1.3;
+  }
+  .thanks-content .thanks-content__grid {
+    grid-template-columns: 1fr;
+    height: 50%;
+    width: 50%;
+    padding-top: 2.5rem;
+    margin: 0;
+    padding-right: 3rem;
+  }
+  .thanks-content .thanks-content__grid div {
+    width: 100%;
   }
 }
 
@@ -4487,6 +4682,9 @@ html {
   .nav .nav__button {
     margin-top: 0;
     flex-basis: 20%;
+  }
+  .portal-heading {
+    font-size: 3rem;
   }
   .footer {
     height: 15rem;

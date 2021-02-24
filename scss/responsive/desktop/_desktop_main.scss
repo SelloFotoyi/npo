@@ -1,4 +1,4 @@
-@import "./desktop_home";
+@import "./desktop_home", "./desktop_about", "./desktop_donate";
 
 @include media-desktop__sm {
   .nav {
@@ -25,7 +25,9 @@
       flex-basis: 20%;
     }
   }
-
+  .portal-heading {
+    font-size: 3rem;
+  }
   .footer {
     height: 15rem;
     width: 100%;

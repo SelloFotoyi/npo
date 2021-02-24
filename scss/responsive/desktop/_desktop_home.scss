@@ -199,7 +199,6 @@
       padding-right: 20rem;
     }
     #{&}__flex {
-      border: 1px solid red;
       height: 25rem;
       margin-bottom: 5rem;
       &__img {
@@ -212,7 +211,6 @@
       }
       &__info {
         &__button {
-          border: 1px solid rgb(134, 120, 120);
           justify-content: flex-start;
           width: 70%;
           margin-left: 2%;
