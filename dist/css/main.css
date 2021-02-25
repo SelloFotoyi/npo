@@ -15,6 +15,7 @@
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
 @import url("https://use.typekit.net/rut6oae.css");
+@import url("https://use.typekit.net/rut6oae.css");
 * {
   padding: 0;
   margin: 0;
@@ -1885,9 +1886,11 @@ html,
   color: #c1f7d5;
 }
 
-.news-events {
+.news-events,
+html {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .heading {
@@ -2973,6 +2976,328 @@ html {
   }
   .thanks-confirm {
     height: 16rem;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 50%;
+  text-align: center;
+  padding: 0.62rem;
+}
+
+.stories {
+  width: 100%;
+  height: 100%;
+}
+
+.claudine, .zainab, .caritas, .euphrasie, .unis, .regina {
+  width: 100%;
+  padding: 0 10%;
+  height: 115rem;
+  position: relative;
+  top: 0;
+  transition: 1s;
+  background: #354463;
+  color: #fff;
+}
+
+.claudine h1, .zainab h1, .caritas h1, .euphrasie h1, .unis h1, .regina h1 {
+  font-family: flood-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1.5rem 0;
+  width: 100%;
+  padding-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.claudine .index, .zainab .index, .caritas .index, .euphrasie .index, .unis .index, .regina .index {
+  background: transparent;
+  list-style-type: none;
+  margin-bottom: 2.5rem;
+  line-height: 3.5;
+}
+
+.claudine .index li, .zainab .index li, .caritas .index li, .euphrasie .index li, .unis .index li, .regina .index li {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.claudine .top-img, .zainab .top-img, .caritas .top-img, .euphrasie .top-img, .unis .top-img, .regina .top-img {
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 1rem;
+}
+
+.claudine .top-img img, .zainab .top-img img, .caritas .top-img img, .euphrasie .top-img img, .unis .top-img img, .regina .top-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.claudine .quote, .zainab .quote, .caritas .quote, .euphrasie .quote, .unis .quote, .regina .quote {
+  background: #fff;
+  width: 100%;
+  height: 15rem;
+  padding: 2rem;
+  color: #354463;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.claudine .btm-img, .zainab .btm-img, .caritas .btm-img, .euphrasie .btm-img, .unis .btm-img, .regina .btm-img {
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 2.5rem;
+}
+
+.claudine .btm-img img, .zainab .btm-img img, .caritas .btm-img img, .euphrasie .btm-img img, .unis .btm-img img, .regina .btm-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.claudine .story__header, .zainab .story__header, .caritas .story__header, .euphrasie .story__header, .unis .story__header, .regina .story__header {
+  margin-bottom: 2rem;
+}
+
+.claudine .story__content, .zainab .story__content, .caritas .story__content, .euphrasie .story__content, .unis .story__content, .regina .story__content {
+  line-height: 1.3;
+}
+
+.claudine .story__btn, .zainab .story__btn, .caritas .story__btn, .euphrasie .story__btn, .unis .story__btn, .regina .story__btn {
+  margin: 3rem 0;
+  background: #c1f7d5;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #354463;
+  font-weight: bold;
+  width: 7.5rem;
+  text-align: center;
+}
+
+.claudine {
+  display: inline-block;
+  opacity: 1;
+  z-index: 1;
+}
+
+.claudine .index .index-item__claudine {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.zainab {
+  display: none;
+  opacity: 0;
+  z-index: 2;
+}
+
+.zainab .index .index-item__zainab {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.caritas {
+  display: none;
+  opacity: 0;
+  z-index: 3;
+}
+
+.caritas .index .index-item__caritas {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.euphrasie {
+  display: none;
+  opacity: 0;
+  z-index: 4;
+}
+
+.euphrasie .index .index-item__euphrasie {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.unis {
+  display: none;
+  opacity: 0;
+  z-index: 5;
+}
+
+.unis .index .index-item__unis {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+.regina {
+  display: none;
+  opacity: 0;
+  z-index: 6;
+}
+
+.regina .index .index-item__regina {
+  background: #c1f7d5;
+  color: #354463;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    height: 35rem;
+  }
+  .banner img {
+    content: url("../../../dist/img/tablet/banner-img.png");
+  }
+  .banner .banner__title {
+    width: 30%;
+  }
+  .banner-content {
+    width: 60%;
+  }
+  .action-module .action-module__grid {
+    margin-left: 3.5rem;
+  }
+  .action-module .action-module__grid__item p {
+    padding-right: 2.5rem;
+  }
+  .know-module .know-module__content__header {
+    padding-right: 20rem;
+  }
+  .slider {
+    height: 37rem;
+  }
+  .slide .slide__content__img {
+    height: 18rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .slide .slide__content__info {
+    height: 10rem;
+    width: 80%;
+    margin-top: 5rem;
+    margin: 0 auto;
+  }
+  .events {
+    height: 85rem;
+  }
+  .events .events__flex {
+    height: 35rem;
+    width: 85%;
+    margin: 2.5rem auto;
+  }
+  .events .events__flex__img {
+    height: 50%;
+  }
+  .about-banner .about-banner__title {
+    width: 35%;
+  }
+  .about-banner img {
+    content: url("../../../dist/img/tablet/about-bg.png");
+  }
+  .mission {
+    height: 50rem;
+  }
+  .mission .mission__intro {
+    width: 85%;
+    margin: 1.5rem auto;
+  }
+  .mission .mission-grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 3.5rem;
+  }
+  .mission .mission-grid_item p {
+    padding-right: 3.5rem;
+  }
+  .team .team-grid {
+    gap: 0.5rem;
+    width: 85%;
+    margin: 1.5rem auto;
+    height: 60%;
+  }
+  .team .team-grid__item {
+    transform: scale(0.8);
+    height: 18rem;
+  }
+  .team .team-grid__item span {
+    bottom: -2rem;
+    width: 100%;
+    left: 10%;
+    font-size: 1.5rem;
+  }
+  .impact {
+    height: 40rem;
+  }
+  .history .about-slider .about-slides .about-slide .content {
+    height: 25rem;
+  }
+  .history .about-slider .about-slides .about-slide .content img {
+    height: 55%;
+  }
+  .history .about-slider .about-slides .about-slide .content .info {
+    height: 45%;
+  }
+  .heading .heading__header {
+    margin-left: 5rem;
+  }
+  .header__blog {
+    width: 75%;
+    height: 55rem;
+  }
+  .donate-main {
+    height: 87rem;
+  }
+  .donation-container .donation-check {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem !important;
+  }
+  .form-container__form .pay-btn {
+    margin-left: 20rem;
+  }
+  .footer {
+    height: 25rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer h3 {
+    grid-row: span 2;
+    font-size: 1.5rem;
+  }
+  .footer .footer-list {
+    height: 7.5rem;
+    font-size: 1rem;
+  }
+  .footer .footer-list li {
+    font-size: 1rem;
+  }
+  .footer h1 {
+    grid-column-start: 3;
+    font-size: 3rem;
+  }
+  .footer h1 span {
+    font-size: 3rem;
   }
 }
 

@@ -1,2 +1,181 @@
+@import "../../stories";
+
 @include media-mobile-xl {
+  .banner {
+    height: 35rem;
+    img {
+      content: url("../../../dist/img/tablet/banner-img.png");
+    }
+    #{&}__title {
+      width: 30%;
+    }
+  }
+  .banner-content {
+    width: 60%;
+  }
+  .action-module {
+    #{&}__grid {
+      margin-left: 3.5rem;
+      &__item {
+        p {
+          padding-right: 2.5rem;
+        }
+      }
+    }
+  }
+  .know-module {
+    #{&}__content {
+      &__header {
+        padding-right: 20rem;
+        h2 {
+        }
+      }
+    }
+  }
+  .slider {
+    height: 37rem;
+  }
+
+  .slide {
+    #{&}__content {
+      &__img {
+        height: 18rem;
+        width: 80%;
+        margin: 0 auto;
+      }
+      &__info {
+        height: 10rem;
+        width: 80%;
+        margin-top: 5rem;
+        margin: 0 auto;
+      }
+    }
+  }
+  .events {
+    height: 85rem;
+    #{&}__flex {
+      height: 35rem;
+      width: 85%;
+      margin: 2.5rem auto;
+      &__img {
+        height: 50%;
+      }
+    }
+  }
+
+  .about-banner {
+    #{&}__title {
+      width: 35%;
+    }
+    img {
+      content: url("../../../dist/img/tablet/about-bg.png");
+    }
+  }
+  .mission {
+    height: 50rem;
+    #{&}__intro {
+      width: 85%;
+      margin: 1.5rem auto;
+    }
+    #{&}-grid {
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 3.5rem;
+      &_item {
+        p {
+          padding-right: 3.5rem;
+        }
+      }
+    }
+  }
+
+  .team {
+    #{&}-grid {
+      gap: 0.5rem;
+      width: 85%;
+      margin: 1.5rem auto;
+      height: 60%;
+      &__item {
+        transform: scale(0.8);
+        height: 18rem;
+        span {
+          bottom: -2rem;
+          width: 100%;
+          left: 10%;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .impact {
+    height: 40rem;
+  }
+  .history {
+    .about-slider {
+      .about-slides {
+        .about-slide {
+          //   height: ;
+          .content {
+            height: 25rem;
+            img {
+              height: 55%;
+            }
+            .info {
+              height: 45%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .heading {
+    #{&}__header {
+      margin-left: 5rem;
+    }
+  }
+  .header__blog {
+    width: 75%;
+    height: 55rem;
+  }
+  .donate-main {
+    height: 87rem;
+  }
+  .donation-container {
+    .donation {
+      &-check {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1.5rem !important;
+      }
+    }
+  }
+
+  .form-container__form {
+    .pay-btn {
+      margin-left: 20rem;
+    }
+  }
+
+  .footer {
+    height: 25rem;
+    grid-template-columns: repeat(3, 1fr);
+    h3 {
+      grid-row: span 2;
+      font-size: 1.5rem;
+    }
+    .footer-list {
+      height: 7.5rem;
+      font-size: 1rem;
+      li {
+        font-size: 1rem;
+      }
+    }
+    h1 {
+      grid-column-start: 3;
+      font-size: 3rem;
+      span {
+        font-size: 3rem;
+      }
+    }
+  }
 }
