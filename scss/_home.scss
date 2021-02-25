@@ -166,6 +166,7 @@ html {
       display: flex;
       justify-content: center;
       margin-top: 2rem;
+      cursor: pointer;
       &__text {
         font-size: 1.2rem;
         width: 50%;
@@ -222,6 +223,7 @@ html {
         color: $theme_dark;
         border-radius: 1rem;
         font-weight: bold;
+        cursor: pointer;
         &:hover {
           transition: 1s;
           color: $theme_light;
@@ -357,6 +359,7 @@ html {
       display: flex;
       justify-content: center;
       margin-top: 1rem;
+      cursor: pointer;
       &__text {
         background: $theme_light;
         color: $theme_dark;
@@ -515,6 +518,7 @@ html {
         display: flex;
         justify-content: center;
         margin-top: 2rem;
+        cursor: pointer;
         &__text {
           font-size: 1.2rem;
           width: 50%;
@@ -567,7 +571,9 @@ html {
       background: $theme_white;
       font-weight: 1.2rem;
       &:focus {
+        transition: 1s;
         border: none;
+        border: 1px solid $theme_dark;
         outline: none;
       }
     }
@@ -581,6 +587,7 @@ html {
       font-weight: bold;
       flex-grow: 1;
       text-align: center;
+      cursor: pointer;
       &:hover {
         transition: 1s;
         background: $theme_light;
@@ -618,6 +625,7 @@ html {
         text-decoration: underline;
         color: $theme_dark;
         line-height: 1.5;
+        cursor: pointer;
       }
     }
   }

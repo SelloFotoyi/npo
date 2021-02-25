@@ -23,40 +23,14 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -92,6 +66,7 @@
 
 .nav .nav__upper__logo a {
   color: #354463;
+  cursor: pointer;
 }
 
 .nav .nav__upper__items {
@@ -126,6 +101,7 @@
 
 .nav .nav__button a {
   color: #354463;
+  cursor: pointer;
 }
 
 .nav .nav__button:hover {
@@ -145,40 +121,14 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -194,40 +144,14 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -426,6 +350,7 @@ html {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .do-module .do-module__div__button__text {
@@ -493,6 +418,7 @@ html {
   color: #354463;
   border-radius: 1rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .know-module .know-module__content__header a:hover {
@@ -646,6 +572,7 @@ html {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 .slide .slide__content__button__text {
@@ -819,6 +746,7 @@ html {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 .events .events__flex__info__button__text {
@@ -876,7 +804,9 @@ html {
 }
 
 .subscribe .subscribe__action input:focus {
+  transition: 1s;
   border: none;
+  border: 1px solid #354463;
   outline: none;
 }
 
@@ -890,6 +820,7 @@ html {
   font-weight: bold;
   flex-grow: 1;
   text-align: center;
+  cursor: pointer;
 }
 
 .subscribe .subscribe__action__button:hover {
@@ -935,6 +866,7 @@ html {
   text-decoration: underline;
   color: #354463;
   line-height: 1.5;
+  cursor: pointer;
 }
 
 .footer h1 {
@@ -962,40 +894,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -1277,6 +1183,7 @@ html,
   color: #c1f7d5;
   transform: scale(3);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .history .about-slider .prev-btn {
@@ -1291,6 +1198,7 @@ html,
   color: #c1f7d5;
   border-radius: 50%;
   transform: scale(3);
+  cursor: pointer;
 }
 
 .history .about-slider .about-slides {
@@ -1376,14 +1284,7 @@ html,
   border-radius: 2rem;
 }
 
-.history
-  .about-slider
-  .about-slides
-  .about-slide
-  .content
-  .info
-  .button
-  span:hover {
+.history .about-slider .about-slides .about-slide .content .info .button span:hover {
   transition: 1s;
   background: #354463;
   color: #c1f7d5;
@@ -1396,40 +1297,14 @@ html,
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -1443,12 +1318,7 @@ html,
   height: 100%;
 }
 
-.claudine,
-.zainab,
-.caritas,
-.euphrasie,
-.unis,
-.regina {
+.claudine, .zainab, .caritas, .euphrasie, .unis, .regina {
   width: 100%;
   padding: 0 10%;
   height: 115rem;
@@ -1459,12 +1329,7 @@ html,
   color: #fff;
 }
 
-.claudine h1,
-.zainab h1,
-.caritas h1,
-.euphrasie h1,
-.unis h1,
-.regina h1 {
+.claudine h1, .zainab h1, .caritas h1, .euphrasie h1, .unis h1, .regina h1 {
   font-family: flood-std, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -1477,56 +1342,31 @@ html,
   font-weight: normal;
 }
 
-.claudine .index,
-.zainab .index,
-.caritas .index,
-.euphrasie .index,
-.unis .index,
-.regina .index {
+.claudine .index, .zainab .index, .caritas .index, .euphrasie .index, .unis .index, .regina .index {
   background: transparent;
   list-style-type: none;
   margin-bottom: 2.5rem;
   line-height: 3.5;
 }
 
-.claudine .index li,
-.zainab .index li,
-.caritas .index li,
-.euphrasie .index li,
-.unis .index li,
-.regina .index li {
+.claudine .index li, .zainab .index li, .caritas .index li, .euphrasie .index li, .unis .index li, .regina .index li {
   padding-left: 1rem;
   cursor: pointer;
 }
 
-.claudine .top-img,
-.zainab .top-img,
-.caritas .top-img,
-.euphrasie .top-img,
-.unis .top-img,
-.regina .top-img {
+.claudine .top-img, .zainab .top-img, .caritas .top-img, .euphrasie .top-img, .unis .top-img, .regina .top-img {
   width: 100%;
   height: 15rem;
   margin-bottom: 1rem;
 }
 
-.claudine .top-img img,
-.zainab .top-img img,
-.caritas .top-img img,
-.euphrasie .top-img img,
-.unis .top-img img,
-.regina .top-img img {
+.claudine .top-img img, .zainab .top-img img, .caritas .top-img img, .euphrasie .top-img img, .unis .top-img img, .regina .top-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.claudine .quote,
-.zainab .quote,
-.caritas .quote,
-.euphrasie .quote,
-.unis .quote,
-.regina .quote {
+.claudine .quote, .zainab .quote, .caritas .quote, .euphrasie .quote, .unis .quote, .regina .quote {
   background: #fff;
   width: 100%;
   height: 15rem;
@@ -1537,52 +1377,27 @@ html,
   margin-bottom: 1rem;
 }
 
-.claudine .btm-img,
-.zainab .btm-img,
-.caritas .btm-img,
-.euphrasie .btm-img,
-.unis .btm-img,
-.regina .btm-img {
+.claudine .btm-img, .zainab .btm-img, .caritas .btm-img, .euphrasie .btm-img, .unis .btm-img, .regina .btm-img {
   width: 100%;
   height: 15rem;
   margin-bottom: 2.5rem;
 }
 
-.claudine .btm-img img,
-.zainab .btm-img img,
-.caritas .btm-img img,
-.euphrasie .btm-img img,
-.unis .btm-img img,
-.regina .btm-img img {
+.claudine .btm-img img, .zainab .btm-img img, .caritas .btm-img img, .euphrasie .btm-img img, .unis .btm-img img, .regina .btm-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.claudine .story__header,
-.zainab .story__header,
-.caritas .story__header,
-.euphrasie .story__header,
-.unis .story__header,
-.regina .story__header {
+.claudine .story__header, .zainab .story__header, .caritas .story__header, .euphrasie .story__header, .unis .story__header, .regina .story__header {
   margin-bottom: 2rem;
 }
 
-.claudine .story__content,
-.zainab .story__content,
-.caritas .story__content,
-.euphrasie .story__content,
-.unis .story__content,
-.regina .story__content {
+.claudine .story__content, .zainab .story__content, .caritas .story__content, .euphrasie .story__content, .unis .story__content, .regina .story__content {
   line-height: 1.3;
 }
 
-.claudine .story__btn,
-.zainab .story__btn,
-.caritas .story__btn,
-.euphrasie .story__btn,
-.unis .story__btn,
-.regina .story__btn {
+.claudine .story__btn, .zainab .story__btn, .caritas .story__btn, .euphrasie .story__btn, .unis .story__btn, .regina .story__btn {
   margin: 3rem 0;
   background: #c1f7d5;
   padding: 0.5rem;
@@ -1666,40 +1481,14 @@ html,
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -1715,40 +1504,14 @@ html,
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -2030,6 +1793,7 @@ html,
   color: #c1f7d5;
   transform: scale(3);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .history .about-slider .prev-btn {
@@ -2044,6 +1808,7 @@ html,
   color: #c1f7d5;
   border-radius: 50%;
   transform: scale(3);
+  cursor: pointer;
 }
 
 .history .about-slider .about-slides {
@@ -2129,14 +1894,7 @@ html,
   border-radius: 2rem;
 }
 
-.history
-  .about-slider
-  .about-slides
-  .about-slide
-  .content
-  .info
-  .button
-  span:hover {
+.history .about-slider .about-slides .about-slide .content .info .button span:hover {
   transition: 1s;
   background: #354463;
   color: #c1f7d5;
@@ -2413,40 +2171,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -2455,18 +2187,14 @@ html {
   padding: 0.62rem;
 }
 
-.form-container__form .outer-div,
-.form-container__form .location-flex__city,
-.form-container__form .location-flex__state-zip div {
+.form-container__form .outer-div, .form-container__form .location-flex__city, .form-container__form .location-flex__state-zip div {
   display: flex;
   width: 95%;
   margin: 0 auto 1.5rem auto;
   flex-direction: column;
 }
 
-.form-container__form .outer-div label,
-.form-container__form .location-flex__city label,
-.form-container__form .location-flex__state-zip div label {
+.form-container__form .outer-div label, .form-container__form .location-flex__city label, .form-container__form .location-flex__state-zip div label {
   text-transform: uppercase;
   font-size: 1rem;
   padding-left: 1rem;
@@ -2474,9 +2202,7 @@ html {
   color: #fff;
 }
 
-.form-container__form .outer-div input,
-.form-container__form .location-flex__city input,
-.form-container__form .location-flex__state-zip div input {
+.form-container__form .outer-div input, .form-container__form .location-flex__city input, .form-container__form .location-flex__state-zip div input {
   appearance: none;
   width: 95%;
   margin-left: 1rem;
@@ -2490,9 +2216,7 @@ html {
   color: #fff;
 }
 
-.form-container__form .outer-div input:focus,
-.form-container__form .location-flex__city input:focus,
-.form-container__form .location-flex__state-zip div input:focus {
+.form-container__form .outer-div input:focus, .form-container__form .location-flex__city input:focus, .form-container__form .location-flex__state-zip div input:focus {
   outline: none;
   border-bottom: 2px solid #fff;
 }
@@ -2751,40 +2475,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -2793,11 +2491,7 @@ html {
   padding: 0.62rem;
 }
 
-.donation-container .donation-10,
-.donation-container .donation-20,
-.donation-container .donation-50,
-.donation-container .donation-month,
-.donation-container .donation-once {
+.donation-container .donation-10, .donation-container .donation-20, .donation-container .donation-50, .donation-container .donation-month, .donation-container .donation-once {
   width: 95%;
   height: 12rem;
   margin: 0 auto;
@@ -2809,21 +2503,13 @@ html {
   border: 1px solid #fff;
 }
 
-.donation-container .donation-10 div,
-.donation-container .donation-20 div,
-.donation-container .donation-50 div,
-.donation-container .donation-month div,
-.donation-container .donation-once div {
+.donation-container .donation-10 div, .donation-container .donation-20 div, .donation-container .donation-50 div, .donation-container .donation-month div, .donation-container .donation-once div {
   display: flex;
   margin-left: 2rem;
   align-items: center;
 }
 
-.donation-container .donation-10 div label,
-.donation-container .donation-20 div label,
-.donation-container .donation-50 div label,
-.donation-container .donation-month div label,
-.donation-container .donation-once div label {
+.donation-container .donation-10 div label, .donation-container .donation-20 div label, .donation-container .donation-50 div label, .donation-container .donation-month div label, .donation-container .donation-once div label {
   background: transparent;
   margin-right: 1rem;
   border: 10px solid #fff;
@@ -2832,22 +2518,14 @@ html {
   height: 2.5rem;
 }
 
-.donation-container .donation-10 div span,
-.donation-container .donation-20 div span,
-.donation-container .donation-50 div span,
-.donation-container .donation-month div span,
-.donation-container .donation-once div span {
+.donation-container .donation-10 div span, .donation-container .donation-20 div span, .donation-container .donation-50 div span, .donation-container .donation-month div span, .donation-container .donation-once div span {
   font-size: 3rem;
   color: #fff;
   font-weight: bolder;
   padding-bottom: 0.5rem;
 }
 
-.donation-container .donation-10 p,
-.donation-container .donation-20 p,
-.donation-container .donation-50 p,
-.donation-container .donation-month p,
-.donation-container .donation-once p {
+.donation-container .donation-10 p, .donation-container .donation-20 p, .donation-container .donation-50 p, .donation-container .donation-month p, .donation-container .donation-once p {
   line-height: 1.5;
   color: #fff;
   padding: 1.2rem;
@@ -3033,40 +2711,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -3210,12 +2862,7 @@ html {
   .about-slide {
     overflow-y: hidden;
   }
-  .claudine,
-  .zainab,
-  .caritas,
-  .euphrasie,
-  .unis,
-  .regina {
+  .claudine, .zainab, .caritas, .euphrasie, .unis, .regina {
     height: 110rem;
   }
   .heading {
@@ -3353,40 +3000,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -3400,12 +3021,7 @@ html {
   height: 100%;
 }
 
-.claudine,
-.zainab,
-.caritas,
-.euphrasie,
-.unis,
-.regina {
+.claudine, .zainab, .caritas, .euphrasie, .unis, .regina {
   width: 100%;
   padding: 0 10%;
   height: 115rem;
@@ -3416,12 +3032,7 @@ html {
   color: #fff;
 }
 
-.claudine h1,
-.zainab h1,
-.caritas h1,
-.euphrasie h1,
-.unis h1,
-.regina h1 {
+.claudine h1, .zainab h1, .caritas h1, .euphrasie h1, .unis h1, .regina h1 {
   font-family: flood-std, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -3434,56 +3045,31 @@ html {
   font-weight: normal;
 }
 
-.claudine .index,
-.zainab .index,
-.caritas .index,
-.euphrasie .index,
-.unis .index,
-.regina .index {
+.claudine .index, .zainab .index, .caritas .index, .euphrasie .index, .unis .index, .regina .index {
   background: transparent;
   list-style-type: none;
   margin-bottom: 2.5rem;
   line-height: 3.5;
 }
 
-.claudine .index li,
-.zainab .index li,
-.caritas .index li,
-.euphrasie .index li,
-.unis .index li,
-.regina .index li {
+.claudine .index li, .zainab .index li, .caritas .index li, .euphrasie .index li, .unis .index li, .regina .index li {
   padding-left: 1rem;
   cursor: pointer;
 }
 
-.claudine .top-img,
-.zainab .top-img,
-.caritas .top-img,
-.euphrasie .top-img,
-.unis .top-img,
-.regina .top-img {
+.claudine .top-img, .zainab .top-img, .caritas .top-img, .euphrasie .top-img, .unis .top-img, .regina .top-img {
   width: 100%;
   height: 15rem;
   margin-bottom: 1rem;
 }
 
-.claudine .top-img img,
-.zainab .top-img img,
-.caritas .top-img img,
-.euphrasie .top-img img,
-.unis .top-img img,
-.regina .top-img img {
+.claudine .top-img img, .zainab .top-img img, .caritas .top-img img, .euphrasie .top-img img, .unis .top-img img, .regina .top-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.claudine .quote,
-.zainab .quote,
-.caritas .quote,
-.euphrasie .quote,
-.unis .quote,
-.regina .quote {
+.claudine .quote, .zainab .quote, .caritas .quote, .euphrasie .quote, .unis .quote, .regina .quote {
   background: #fff;
   width: 100%;
   height: 15rem;
@@ -3494,52 +3080,27 @@ html {
   margin-bottom: 1rem;
 }
 
-.claudine .btm-img,
-.zainab .btm-img,
-.caritas .btm-img,
-.euphrasie .btm-img,
-.unis .btm-img,
-.regina .btm-img {
+.claudine .btm-img, .zainab .btm-img, .caritas .btm-img, .euphrasie .btm-img, .unis .btm-img, .regina .btm-img {
   width: 100%;
   height: 15rem;
   margin-bottom: 2.5rem;
 }
 
-.claudine .btm-img img,
-.zainab .btm-img img,
-.caritas .btm-img img,
-.euphrasie .btm-img img,
-.unis .btm-img img,
-.regina .btm-img img {
+.claudine .btm-img img, .zainab .btm-img img, .caritas .btm-img img, .euphrasie .btm-img img, .unis .btm-img img, .regina .btm-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.claudine .story__header,
-.zainab .story__header,
-.caritas .story__header,
-.euphrasie .story__header,
-.unis .story__header,
-.regina .story__header {
+.claudine .story__header, .zainab .story__header, .caritas .story__header, .euphrasie .story__header, .unis .story__header, .regina .story__header {
   margin-bottom: 2rem;
 }
 
-.claudine .story__content,
-.zainab .story__content,
-.caritas .story__content,
-.euphrasie .story__content,
-.unis .story__content,
-.regina .story__content {
+.claudine .story__content, .zainab .story__content, .caritas .story__content, .euphrasie .story__content, .unis .story__content, .regina .story__content {
   line-height: 1.3;
 }
 
-.claudine .story__btn,
-.zainab .story__btn,
-.caritas .story__btn,
-.euphrasie .story__btn,
-.unis .story__btn,
-.regina .story__btn {
+.claudine .story__btn, .zainab .story__btn, .caritas .story__btn, .euphrasie .story__btn, .unis .story__btn, .regina .story__btn {
   margin: 3rem 0;
   background: #c1f7d5;
   padding: 0.5rem;
@@ -3677,8 +3238,8 @@ html {
     margin: 1.5rem auto;
   }
   .mission .mission-grid {
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 3.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 5rem;
   }
   .mission .mission-grid_item p {
     padding-right: 3.5rem;
@@ -3956,40 +3517,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -4064,7 +3599,7 @@ html {
     text-align: left;
   }
   .impact {
-    height: 60%;
+    height: 35rem;
   }
   .impact .impact__info {
     font-size: 2rem;
@@ -4118,40 +3653,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -4167,40 +3676,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -4214,12 +3697,7 @@ html {
   height: 100%;
 }
 
-.claudine,
-.zainab,
-.caritas,
-.euphrasie,
-.unis,
-.regina {
+.claudine, .zainab, .caritas, .euphrasie, .unis, .regina {
   width: 100%;
   padding: 0 10%;
   height: 115rem;
@@ -4230,12 +3708,7 @@ html {
   color: #fff;
 }
 
-.claudine h1,
-.zainab h1,
-.caritas h1,
-.euphrasie h1,
-.unis h1,
-.regina h1 {
+.claudine h1, .zainab h1, .caritas h1, .euphrasie h1, .unis h1, .regina h1 {
   font-family: flood-std, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -4248,56 +3721,31 @@ html {
   font-weight: normal;
 }
 
-.claudine .index,
-.zainab .index,
-.caritas .index,
-.euphrasie .index,
-.unis .index,
-.regina .index {
+.claudine .index, .zainab .index, .caritas .index, .euphrasie .index, .unis .index, .regina .index {
   background: transparent;
   list-style-type: none;
   margin-bottom: 2.5rem;
   line-height: 3.5;
 }
 
-.claudine .index li,
-.zainab .index li,
-.caritas .index li,
-.euphrasie .index li,
-.unis .index li,
-.regina .index li {
+.claudine .index li, .zainab .index li, .caritas .index li, .euphrasie .index li, .unis .index li, .regina .index li {
   padding-left: 1rem;
   cursor: pointer;
 }
 
-.claudine .top-img,
-.zainab .top-img,
-.caritas .top-img,
-.euphrasie .top-img,
-.unis .top-img,
-.regina .top-img {
+.claudine .top-img, .zainab .top-img, .caritas .top-img, .euphrasie .top-img, .unis .top-img, .regina .top-img {
   width: 100%;
   height: 15rem;
   margin-bottom: 1rem;
 }
 
-.claudine .top-img img,
-.zainab .top-img img,
-.caritas .top-img img,
-.euphrasie .top-img img,
-.unis .top-img img,
-.regina .top-img img {
+.claudine .top-img img, .zainab .top-img img, .caritas .top-img img, .euphrasie .top-img img, .unis .top-img img, .regina .top-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.claudine .quote,
-.zainab .quote,
-.caritas .quote,
-.euphrasie .quote,
-.unis .quote,
-.regina .quote {
+.claudine .quote, .zainab .quote, .caritas .quote, .euphrasie .quote, .unis .quote, .regina .quote {
   background: #fff;
   width: 100%;
   height: 15rem;
@@ -4308,52 +3756,27 @@ html {
   margin-bottom: 1rem;
 }
 
-.claudine .btm-img,
-.zainab .btm-img,
-.caritas .btm-img,
-.euphrasie .btm-img,
-.unis .btm-img,
-.regina .btm-img {
+.claudine .btm-img, .zainab .btm-img, .caritas .btm-img, .euphrasie .btm-img, .unis .btm-img, .regina .btm-img {
   width: 100%;
   height: 15rem;
   margin-bottom: 2.5rem;
 }
 
-.claudine .btm-img img,
-.zainab .btm-img img,
-.caritas .btm-img img,
-.euphrasie .btm-img img,
-.unis .btm-img img,
-.regina .btm-img img {
+.claudine .btm-img img, .zainab .btm-img img, .caritas .btm-img img, .euphrasie .btm-img img, .unis .btm-img img, .regina .btm-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.claudine .story__header,
-.zainab .story__header,
-.caritas .story__header,
-.euphrasie .story__header,
-.unis .story__header,
-.regina .story__header {
+.claudine .story__header, .zainab .story__header, .caritas .story__header, .euphrasie .story__header, .unis .story__header, .regina .story__header {
   margin-bottom: 2rem;
 }
 
-.claudine .story__content,
-.zainab .story__content,
-.caritas .story__content,
-.euphrasie .story__content,
-.unis .story__content,
-.regina .story__content {
+.claudine .story__content, .zainab .story__content, .caritas .story__content, .euphrasie .story__content, .unis .story__content, .regina .story__content {
   line-height: 1.3;
 }
 
-.claudine .story__btn,
-.zainab .story__btn,
-.caritas .story__btn,
-.euphrasie .story__btn,
-.unis .story__btn,
-.regina .story__btn {
+.claudine .story__btn, .zainab .story__btn, .caritas .story__btn, .euphrasie .story__btn, .unis .story__btn, .regina .story__btn {
   margin: 3rem 0;
   background: #c1f7d5;
   padding: 0.5rem;
@@ -4431,74 +3854,39 @@ html {
 }
 
 @media screen and (min-width: 768px) {
-  .claudine,
-  .zainab,
-  .caritas,
-  .euphrasie,
-  .unis,
-  .regina {
+  .claudine, .zainab, .caritas, .euphrasie, .unis, .regina {
     height: 65rem;
   }
-  .claudine h1,
-  .zainab h1,
-  .caritas h1,
-  .euphrasie h1,
-  .unis h1,
-  .regina h1 {
+  .claudine h1, .zainab h1, .caritas h1, .euphrasie h1, .unis h1, .regina h1 {
     margin: 2.5rem 0;
   }
-  .claudine .index,
-  .zainab .index,
-  .caritas .index,
-  .euphrasie .index,
-  .unis .index,
-  .regina .index {
+  .claudine .index, .zainab .index, .caritas .index, .euphrasie .index, .unis .index, .regina .index {
     position: absolute;
     width: 55%;
     transform: scale(0.75);
     left: 1%;
     top: 5rem;
   }
-  .claudine .top-img,
-  .zainab .top-img,
-  .caritas .top-img,
-  .euphrasie .top-img,
-  .unis .top-img,
-  .regina .top-img {
+  .claudine .top-img, .zainab .top-img, .caritas .top-img, .euphrasie .top-img, .unis .top-img, .regina .top-img {
     position: absolute;
     right: 1.5rem;
     width: 45%;
     top: 7.5rem;
   }
-  .claudine .quote,
-  .zainab .quote,
-  .caritas .quote,
-  .euphrasie .quote,
-  .unis .quote,
-  .regina .quote {
+  .claudine .quote, .zainab .quote, .caritas .quote, .euphrasie .quote, .unis .quote, .regina .quote {
     position: absolute;
     left: 8%;
     top: 25rem;
     width: 40%;
     line-height: 1.35;
   }
-  .claudine .btm-img,
-  .zainab .btm-img,
-  .caritas .btm-img,
-  .euphrasie .btm-img,
-  .unis .btm-img,
-  .regina .btm-img {
+  .claudine .btm-img, .zainab .btm-img, .caritas .btm-img, .euphrasie .btm-img, .unis .btm-img, .regina .btm-img {
     position: absolute;
     left: 8%;
     top: 45rem;
     width: 40%;
   }
-  .claudine .story,
-  .zainab .story,
-  .caritas .story,
-  .euphrasie .story,
-  .unis .story,
-  .regina .story {
+  .claudine .story, .zainab .story, .caritas .story, .euphrasie .story, .unis .story, .regina .story {
     position: absolute;
     width: 40%;
     right: 3.5%;
@@ -4514,40 +3902,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -4667,40 +4029,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -4716,40 +4052,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -4758,11 +4068,7 @@ html {
   padding: 0.62rem;
 }
 
-.donation-container .donation-10,
-.donation-container .donation-20,
-.donation-container .donation-50,
-.donation-container .donation-month,
-.donation-container .donation-once {
+.donation-container .donation-10, .donation-container .donation-20, .donation-container .donation-50, .donation-container .donation-month, .donation-container .donation-once {
   width: 95%;
   height: 12rem;
   margin: 0 auto;
@@ -4774,21 +4080,13 @@ html {
   border: 1px solid #fff;
 }
 
-.donation-container .donation-10 div,
-.donation-container .donation-20 div,
-.donation-container .donation-50 div,
-.donation-container .donation-month div,
-.donation-container .donation-once div {
+.donation-container .donation-10 div, .donation-container .donation-20 div, .donation-container .donation-50 div, .donation-container .donation-month div, .donation-container .donation-once div {
   display: flex;
   margin-left: 2rem;
   align-items: center;
 }
 
-.donation-container .donation-10 div label,
-.donation-container .donation-20 div label,
-.donation-container .donation-50 div label,
-.donation-container .donation-month div label,
-.donation-container .donation-once div label {
+.donation-container .donation-10 div label, .donation-container .donation-20 div label, .donation-container .donation-50 div label, .donation-container .donation-month div label, .donation-container .donation-once div label {
   background: transparent;
   margin-right: 1rem;
   border: 10px solid #fff;
@@ -4797,22 +4095,14 @@ html {
   height: 2.5rem;
 }
 
-.donation-container .donation-10 div span,
-.donation-container .donation-20 div span,
-.donation-container .donation-50 div span,
-.donation-container .donation-month div span,
-.donation-container .donation-once div span {
+.donation-container .donation-10 div span, .donation-container .donation-20 div span, .donation-container .donation-50 div span, .donation-container .donation-month div span, .donation-container .donation-once div span {
   font-size: 3rem;
   color: #fff;
   font-weight: bolder;
   padding-bottom: 0.5rem;
 }
 
-.donation-container .donation-10 p,
-.donation-container .donation-20 p,
-.donation-container .donation-50 p,
-.donation-container .donation-month p,
-.donation-container .donation-once p {
+.donation-container .donation-10 p, .donation-container .donation-20 p, .donation-container .donation-50 p, .donation-container .donation-month p, .donation-container .donation-once p {
   line-height: 1.5;
   color: #fff;
   padding: 1.2rem;
@@ -4992,18 +4282,10 @@ html {
 }
 
 @media screen and (min-width: 768px) {
-  .donation-container .donation-10,
-  .donation-container .donation-20,
-  .donation-container .donation-50,
-  .donation-container .donation-month,
-  .donation-container .donation-once {
+  .donation-container .donation-10, .donation-container .donation-20, .donation-container .donation-50, .donation-container .donation-month, .donation-container .donation-once {
     flex-direction: row;
   }
-  .donation-container .donation-10 p,
-  .donation-container .donation-20 p,
-  .donation-container .donation-50 p,
-  .donation-container .donation-month p,
-  .donation-container .donation-once p {
+  .donation-container .donation-10 p, .donation-container .donation-20 p, .donation-container .donation-50 p, .donation-container .donation-month p, .donation-container .donation-once p {
     align-self: center;
     font-size: 1.5rem;
     padding: 0 2rem;
@@ -5146,40 +4428,14 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.banner-content .banner-content__header,
-.action-module .action-module__title,
-.do-module h3,
-.know-module .know-module__content__facts__title,
-.slide .slide__header,
-.events .events__flex__img h4,
-.about-banner-content .about-banner-content__header,
-.mission .mission__title,
-.team .team__title,
-.impact .impact__title,
-.history .about-slider .about-slides .about-slide .header,
-.news-grid .news-grid__news h4,
-.news-grid .news-grid__events h4,
-.thanks-content .thanks-content__header {
+.banner-content .banner-content__header, .action-module .action-module__title, .do-module h3, .know-module .know-module__content__facts__title, .slide .slide__header, .events .events__flex__img h4, .about-banner-content .about-banner-content__header, .mission .mission__title, .team .team__title, .impact .impact__title, .history .about-slider .about-slides .about-slide .header, .news-grid .news-grid__news h4, .news-grid .news-grid__events h4, .thanks-content .thanks-content__header {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.banner-content .banner-content__header span,
-.action-module .action-module__title span,
-.do-module h3 span,
-.know-module .know-module__content__facts__title span,
-.slide .slide__header span,
-.events .events__flex__img h4 span,
-.about-banner-content .about-banner-content__header span,
-.mission .mission__title span,
-.team .team__title span,
-.impact .impact__title span,
-.history .about-slider .about-slides .about-slide .header span,
-.news-grid .news-grid__news h4 span,
-.news-grid .news-grid__events h4 span,
-.thanks-content .thanks-content__header span {
+.banner-content .banner-content__header span, .action-module .action-module__title span, .do-module h3 span, .know-module .know-module__content__facts__title span, .slide .slide__header span, .events .events__flex__img h4 span, .about-banner-content .about-banner-content__header span, .mission .mission__title span, .team .team__title span, .impact .impact__title span, .history .about-slider .about-slides .about-slide .header span, .news-grid .news-grid__news h4 span, .news-grid .news-grid__events h4 span, .thanks-content .thanks-content__header span {
   position: absolute;
   text-transform: uppercase;
   font-weight: normal;
@@ -5559,14 +4815,18 @@ html {
   .team .team-grid__item {
     height: 20rem;
   }
+  .impact {
+    height: 40rem;
+  }
   .impact img {
     content: url("../../../dist/img/desktop/impact-bg.png");
   }
   .impact .impact__info {
     font-size: 2.5rem;
-    margin-top: 5rem;
+    margin-top: 7.5rem;
   }
   .impact .impact-grid {
+    margin-top: 5rem;
     grid-template-columns: repeat(4, 1fr);
     width: 90%;
   }
@@ -5613,33 +4873,17 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-  .donation-container .donation-10,
-  .donation-container .donation-20,
-  .donation-container .donation-50,
-  .donation-container .donation-month,
-  .donation-container .donation-once {
+  .donation-container .donation-10, .donation-container .donation-20, .donation-container .donation-50, .donation-container .donation-month, .donation-container .donation-once {
     height: 8.5rem;
   }
-  .donation-container .donation-10 div label,
-  .donation-container .donation-20 div label,
-  .donation-container .donation-50 div label,
-  .donation-container .donation-month div label,
-  .donation-container .donation-once div label {
+  .donation-container .donation-10 div label, .donation-container .donation-20 div label, .donation-container .donation-50 div label, .donation-container .donation-month div label, .donation-container .donation-once div label {
     width: 2rem;
     height: 2rem;
   }
-  .donation-container .donation-10 div span,
-  .donation-container .donation-20 div span,
-  .donation-container .donation-50 div span,
-  .donation-container .donation-month div span,
-  .donation-container .donation-once div span {
+  .donation-container .donation-10 div span, .donation-container .donation-20 div span, .donation-container .donation-50 div span, .donation-container .donation-month div span, .donation-container .donation-once div span {
     font-size: 2.5rem;
   }
-  .donation-container .donation-10 p,
-  .donation-container .donation-20 p,
-  .donation-container .donation-50 p,
-  .donation-container .donation-month p,
-  .donation-container .donation-once p {
+  .donation-container .donation-10 p, .donation-container .donation-20 p, .donation-container .donation-50 p, .donation-container .donation-month p, .donation-container .donation-once p {
     font-size: 1.2rem;
   }
   .donate-main {
@@ -5805,6 +5049,9 @@ html {
   .events .events__flex:last-child div:first-child h4 {
     left: -156%;
   }
+  .about-banner-content .about-banner-content__info {
+    padding-top: 7.5%;
+  }
   .mission .mission__title {
     width: 30%;
     justify-content: flex-start;
@@ -5851,7 +5098,7 @@ html {
     transform: scale(0.8);
   }
   .team .team-grid__item span {
-    bottom: -2rem;
+    bottom: -4rem;
     width: 100%;
     left: 10%;
     font-size: 1.5rem;
@@ -5860,10 +5107,16 @@ html {
     height: 50rem;
   }
   .impact .impact__info {
+    width: 80%;
+    margin: 0 auto;
     margin-top: 5.5rem;
+    font-size: 3.5rem;
   }
   .impact .impact-grid {
     margin-top: 10rem;
+  }
+  .impact .impact-grid__item {
+    transform: scale(1.5);
   }
 }
 

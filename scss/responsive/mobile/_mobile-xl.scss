@@ -78,8 +78,8 @@
       margin: 1.5rem auto;
     }
     #{&}-grid {
-      grid-template-columns: repeat(3, 1fr);
-      margin-left: 3.5rem;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 5rem;
       &_item {
         p {
           padding-right: 3.5rem;

@@ -75,6 +75,11 @@
       }
     }
   }
+  .about-banner-content {
+    #{&}__info {
+      padding-top: 7.5%;
+    }
+  }
 
   .mission {
     #{&}__title {
@@ -125,7 +130,7 @@
       &__item {
         transform: scale(0.8);
         span {
-          bottom: -2rem;
+          bottom: -4rem;
           width: 100%;
           left: 10%;
           font-size: 1.5rem;
@@ -137,10 +142,16 @@
   .impact {
     height: 50rem;
     #{&}__info {
+      width: 80%;
+      margin: 0 auto;
       margin-top: 5.5rem;
+      font-size: 3.5rem;
     }
     #{&}-grid {
       margin-top: 10rem;
+      &__item {
+        transform: scale(1.5);
+      }
     }
   }
 }

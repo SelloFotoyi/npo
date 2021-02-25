@@ -1,12 +1,3 @@
-    // var counter = 1;
-    // setInterval(function(){
-    //   document.getElementById('radio' + counter).checked = true;
-    //   counter++;
-    //   if(counter > 5){
-    //     counter = 1;
-    //   }
-    // }, 5000);
-
     //history img slider
     let slides = document.querySelector('.about-slides');
     let prev_btn = document.querySelector('.prev-btn');
@@ -14,61 +5,68 @@
     let nxt_btn = document.querySelector('.next-btn');
     let nxt_btn_arrow = document.querySelector('.fa-arrow-circle-right');
     let slides_container = document.querySelector('.about-slides');
+    let history__header = document.querySelector('.history__header');
+ 
     
-
-     
-    
+    let font_size_point = '36px';
 
     let h_counter = 0;
-    prev_btn_arrow.style.opacity = '0.5';
-    prev_btn.addEventListener('click',()=>{
-      h_counter--;
-      if(h_counter < 0){
-        h_counter = 0;
-      }
-      if(h_counter <= 0){
-        prev_btn_arrow.style.transition = '1s';
-        prev_btn_arrow.style.opacity = '0.5';
-      }
-      else{
-        prev_btn_arrow.style.transition = '1s';
-        prev_btn_arrow.style.opacity = '1';
-      }
-      
-
-      slides.style.marginLeft = -h_counter+'00vw';
-      
-    });
-
-    nxt_btn.addEventListener('click',()=>{
-      let slides_container_width = getComputedStyle(slides_container).width; 
-
-      h_counter++;
-      if(slides_container_width === '1536px'){
-        
-          if(h_counter > 1){
+    if(prev_btn_arrow){
+      prev_btn_arrow.style.opacity = '0.5';
+    }
+     if(prev_btn){
+        prev_btn.addEventListener('click',()=>{
+          h_counter--;
+          if(h_counter < 0){
             h_counter = 0;
           }
-      }
-      else if(slides_container_width === '1875px'){
-        if(h_counter > 4){
-          h_counter = 0;
-        }
-      }
+          if(h_counter <= 0){
+            prev_btn_arrow.style.transition = '1s';
+            prev_btn_arrow.style.opacity = '0.5';
+          }
+          else{
+            prev_btn_arrow.style.transition = '1s';
+            prev_btn_arrow.style.opacity = '1';
+          }
+          
 
-      if(h_counter <= 0){
-        prev_btn_arrow.style.transition = '1s';
-        prev_btn_arrow.style.opacity = '0.5';
-      }
-      else{
-        prev_btn_arrow.style.transition = '1s';
-        prev_btn_arrow.style.opacity = '1';
-      }
+          slides.style.marginLeft = -h_counter+'00vw';
+          
+        });
+     }
 
-      slides.style.marginLeft = -h_counter+'00vw';
-        
-    });
-    //history img slider-end
+     if(nxt_btn){
+         
+        let font_size_checker = getComputedStyle(history__header).fontSize; 
+    
+        nxt_btn.addEventListener('click',()=>{
+          let slides_container_width = getComputedStyle(slides_container).width; 
+          h_counter++;
+          //for smaller devices
+          if(font_size_checker < font_size_point && h_counter > 4){
+            //reset position of history slides
+               h_counter = 0;
+               console.log('small device');
+          }
+          //for larger devices
+          else if(font_size_checker >= font_size_point && h_counter > 1){
+             //reset position of history slides
+              h_counter = 0;
+          }
+
+          if(h_counter <= 0){
+            prev_btn_arrow.style.transition = '1s';
+            prev_btn_arrow.style.opacity = '0.5';
+          }
+          else{
+            prev_btn_arrow.style.transition = '1s';
+            prev_btn_arrow.style.opacity = '1';
+          }
+          //slides position by steps h_counter vh
+          slides.style.marginLeft = -h_counter+'00vw';
+            
+        });
+     }//history img slider-end
 
     //*********stories handler***********/
     let claudine_selector = document.querySelectorAll('.index-item__claudine');
@@ -84,7 +82,6 @@
     let regina_selector = document.querySelectorAll('.index-item__regina');
     let regina = document.querySelector('.regina');
    
-
     for(c of claudine_selector){
       c.addEventListener('click', ()=>{
       //make zainab story appear
@@ -193,7 +190,7 @@
       unis.style.opacity='0';
       unis.style.display='none';
     });
-    }
+    }//stories handler end
 
 
 
