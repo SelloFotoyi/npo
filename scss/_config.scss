@@ -32,7 +32,7 @@ $theme_white: #fff;
 
 $mobile-m: 360px;
 $mobile-l: 412px;
-$mobile-xl: 600px;
+$mobile-xl: 750px;
 $tablet: 768px;
 $desktop__sm: 1024px;
 $desktop__m: 1280px;
@@ -49,7 +49,7 @@ $desktop__l: 1920px;
   }
 }
 @mixin media-mobile-xl {
-  @media screen and (max-width: $mobile-xl) {
+  @media screen and (min-width: 500px) and (max-width: $mobile-xl) {
     @content;
   }
 }
